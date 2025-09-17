@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- etiquetaPrincipal*numeroDeCopias -->
+<!-- etiquetaPrincipal>etiquetaSecundaria+etiquetaSecundaria2 -->
+<!-- etiquetaPrincipal[atributo] --><!-- etiquetaPrincipal[atributo=contenidoAtributo] -->
+<!-- etiquetaPrincipal{contenidoEtiqueta} -->
+<!-- etiquetaPrincipal.clase --><!-- etiquetaPrincipal#id -->
+
+<!-- ep.c#i*[a]{}>es1+es2 -->
+<!-- ep.c#i*[a]{}>(es1>es1.1)+es2 -->
+
+
+
+
+<ejemplos>
+
+    <!-- etiqueta.principal>setiqueta#$*2[tipoEtiqueta=secundaria]>setiqueta[tipoEtiqueta=terciaria]{Etiqueta Terciaria} -->
+    <etiqueta class="principal">
+        <setiqueta id="1" tipoEtiqueta="secundaria">
+            <setiqueta tipoEtiqueta="terciaria">Etiqueta Terciaria</setiqueta>
+        </setiqueta>
+        <setiqueta id="2" tipoEtiqueta="secundaria">
+            <setiqueta tipoEtiqueta="terciaria">Etiqueta Terciaria</setiqueta>
+        </setiqueta>
+    </etiqueta>
+
+    <!-- etiqueta.principal>(setiqueta#1[tipoEtiqueta=secundaria]>setiqueta[tipoEtiqueta=terciaria]{Etiqueta Terciaria})+setiqueta2#2[tipoEtiqueta=secundaria] -->
+    <etiqueta class="principal">
+        <setiqueta id="1" tipoEtiqueta="secundaria">
+            <setiqueta tipoEtiqueta="terciaria">Etiqueta Terciaria</setiqueta>
+        </setiqueta>
+        <setiqueta2 id="2" tipoEtiqueta="secundaria"></setiqueta2>
+    </etiqueta>
+
+</ejemplos>
