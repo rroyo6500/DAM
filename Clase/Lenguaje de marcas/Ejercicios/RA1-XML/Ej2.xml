@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cotxes>
+    <cotxe matricula="5121ABC">
+        <marca></marca>
+        <model></model>
+        <any></any>
+    </cotxe>
+    <cotxe matricula="5222ABC">
+        <marca></marca>
+        <model></model>
+        <any></any>
+    </cotxe>
+</cotxes>

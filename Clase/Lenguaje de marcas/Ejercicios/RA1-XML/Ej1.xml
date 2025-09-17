@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<persones>
+    <alumne>
+        <nom>Marc</nom>
+        <edad>18</edad>
+    </alumne>
+    <alumne>
+        <nom>Izan</nom>
+        <edad>17</edad>
+    </alumne>
+    <alumne>
+        <nom>David</nom>
+        <edad>18</edad>
+    </alumne>
+</persones>
