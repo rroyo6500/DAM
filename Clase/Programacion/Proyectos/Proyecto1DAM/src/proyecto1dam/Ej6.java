@@ -11,11 +11,11 @@ public class Ej6 {
      */
     public static void main(String[] args) {
         
-        int real1 = 6;
-        int real2 = 9;
-        int real3 = 3;
+        double real1 = 6.4d;
+        double real2 = 9.8d;
+        double real3 = 3.1d;
         
-        int res = (real1 + real2 + real3) / 3;
+        double res = (real1 + real2 + real3) / 3;
         
         System.out.println("La media de " + real1 + ", " + real2 + " y " + real3 + " es: " + res);
         
