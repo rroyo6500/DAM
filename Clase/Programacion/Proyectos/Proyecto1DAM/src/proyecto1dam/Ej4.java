@@ -4,18 +4,20 @@ package proyecto1dam;
  *
  * @author r.royo
  */
-public class Ej4 {
+public class Ej3 {
 
     /**
      * @param args the command line arguments
      */
     public static void main(String[] args) {
 
-        int num = 10;
+        char r = 'r';
+        char o = 'o';
+        char b = 'b';
+        char e = 'e';
+        char t = 't';
         
-        boolean bool = num > 0;
-        
-        System.out.println("El numero " + num + " es positiu? " + bool);
+        System.out.println("" + r + o + b + e + r + t);
 
     }
     

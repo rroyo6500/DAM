@@ -1,34 +1,29 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
- */
 package proyecto1dam;
+
+
 
 /**
  *
  * @author r.royo
  */
-public class Ej2 {
-    
-    public static void main(String[] args){
+public class Ej1 {
+
+    /**
+     * @param args the command line arguments
+     */
+    public static void main(String[] args) {
         
         int num1 = 6;
-        int num2 = 2;
-        
+        int num2 = 3;
         int resultado = 0;
         
-        resultado = num1 + num2;
-        System.out.println("El resultado de la suma es: " + resultado);
-        
-        resultado = num1 - num2;
-        System.out.println("El resultado de la resta es: " + resultado);
-        
         resultado = num1 * num2;
-        System.out.println("El resultado de la multiplicacion es: " + resultado);
         
-        resultado = num1 / num2;
-        System.out.println("El resultado de la division es: " + resultado);
+        System.out.println(resultado);
+        System.out.println("El resultado de " + num1 + " por " + num2 + " es " + resultado);
         
+        System.out.println("\n--------------------------------\n");
+               
     }
     
 }
