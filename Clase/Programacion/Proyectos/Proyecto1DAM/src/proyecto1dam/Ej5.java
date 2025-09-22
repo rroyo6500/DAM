@@ -4,7 +4,7 @@ package proyecto1dam;
  *
  * @author r.royo
  */
-public class Ej4 {
+public class Ej5 {
 
     /**
      * @param args the command line arguments
@@ -13,7 +13,7 @@ public class Ej4 {
 
         int num = 10;
         
-        boolean bool = num > 0;
+        boolean bool = num >= 0;
         
         System.out.println("El numero " + num + " es positiu? " + bool);
 
