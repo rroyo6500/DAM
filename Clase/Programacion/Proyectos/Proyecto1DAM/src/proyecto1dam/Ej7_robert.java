@@ -4,14 +4,14 @@ package proyecto1dam;
  *
  * @author r.royo
  */
-public class Ej7 {
+public class Ej7_robert {
 
     /**
      * @param args the command line arguments
      */
     public static void main(String[] args) {
         
-        int seg = 3800;
+        int seg = 4000;
         
         int hores = seg / 3600;
         seg -= hores * 3600;

@@ -4,7 +4,7 @@ package proyecto1dam;
  *
  * @author r.royo
  */
-public class Ej8 {
+public class Ej8_robert {
 
     /**
      * @param args the command line arguments

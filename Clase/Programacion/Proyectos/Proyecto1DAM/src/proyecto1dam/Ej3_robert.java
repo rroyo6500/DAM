@@ -8,7 +8,7 @@ package proyecto1dam;
  *
  * @author r.royo
  */
-public class Ej3 {
+public class Ej3_robert {
     
     public static void main(String[] args){
         
