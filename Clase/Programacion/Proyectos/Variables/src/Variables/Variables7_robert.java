@@ -1,10 +1,10 @@
-package proyecto1dam;
+package Variables;
 
 /**
  *
  * @author r.royo
  */
-public class Ej7_robert {
+public class Variables7_robert {
 
     /**
      * @param args the command line arguments
