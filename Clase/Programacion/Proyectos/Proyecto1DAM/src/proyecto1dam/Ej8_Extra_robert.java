@@ -21,6 +21,7 @@ public class Ej8_Extra_robert {
         v2 = v1 - v2;
         v1 = v1 - v2;
         
+        System.out.println("--------------------------------");
         System.out.println("var1 = " + v1);
         System.out.println("var2 = " + v2);
         

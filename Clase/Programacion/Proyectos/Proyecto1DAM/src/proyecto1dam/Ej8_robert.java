@@ -22,6 +22,7 @@ public class Ej8_robert {
         v1 = v2;
         v2 = residual;
         
+        System.out.println("--------------------------------");
         System.out.println("var1 = " + v1);
         System.out.println("var2 = " + v2);
         
