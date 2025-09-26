@@ -13,14 +13,13 @@ public class Strings8_robert {
         
         String texto = "POKEMON";
         
-        System.out.println(texto.charAt(0) + 0);
-        System.out.println(texto.charAt(1) + 0);
-        System.out.println(texto.charAt(2) + 0);
-        System.out.println(texto.charAt(3) + 0);
-        System.out.println(texto.charAt(4) + 0);
-        System.out.println(texto.charAt(5) + 0);
-        System.out.println(texto.charAt(6) + 0);
-        
+        System.out.println((int) texto.charAt(0));
+        System.out.println((int) texto.charAt(1));
+        System.out.println((int) texto.charAt(2));
+        System.out.println((int) texto.charAt(3));
+        System.out.println((int) texto.charAt(4));
+        System.out.println((int) texto.charAt(5));
+        System.out.println((int) texto.charAt(6));
         
     }
 
