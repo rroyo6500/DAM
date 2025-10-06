@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<store
+    xmlns:cat="http://example.com/categories"
+    xmlns:prod="http://example.com/categories"
+>
+
+    <cat:fruita>
+
+        <prod:poma>
+            <prod:nom>Poma verd</prod:nom>
+            <prod:preu unitat="€/Kg">1,5</prod:preu>
+        </prod:poma>
+
+    </cat:fruita>
+
+    <cat:tecnologia>
+
+
+
+    </cat:tecnologia>
+
+    <cat:begudes>
+
+
+
+    </cat:begudes>
+
+</store>

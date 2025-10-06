@@ -24,7 +24,7 @@ public class Scanner3_robert {
         double area = (base * altura) / 2;
         
         System.out.println("L'area del triangle es: " + area);
-        
+                
     }
 
 }

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<universitat
+    xmlns:uni="http://example.com/universitat"
+>
+
+    <curso>
+        <uni:nom>SMX</uni:nom>
+        <uni:prefessor>Arnau</uni:prefessor>
+        <uni:credits>250</uni:credits>
+    </curso>
+    <curso>
+        <uni:nom>DAM</uni:nom>
+        <uni:prefessor>Laura</uni:prefessor>
+        <uni:credits>300</uni:credits>
+    </curso>
+    <curso>
+        <uni:nom>DAW</uni:nom>
+        <uni:prefessor>Ruben</uni:prefessor>
+        <uni:credits>300</uni:credits>
+    </curso>
+
+
+</universitat>

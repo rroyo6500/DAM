@@ -14,7 +14,7 @@ public class Scanner2_robert {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        
+                
         System.out.println("Introdueix 5 numeros enters: ");
         System.out.print("Numero 1: ");
         int n1 = IN.nextInt();
@@ -28,8 +28,8 @@ public class Scanner2_robert {
         int n5 = IN.nextInt();
         IN.nextLine();
         
-        int suma = n1 + n2 + n3 + n4 + n5;
-        System.out.println("La suma dels numeros anteriors es: " + suma);
+        double suma = (double) n1 + (double) n2 + (double) n3 + (double) n4 +(double)  n5;
+        System.out.println("La suma dels numeros anteriors es: " + (int) suma);
         System.out.println("La mitjana dels numeros anteriors es: " + (suma / 5));
     }
 
