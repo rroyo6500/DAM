@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<especials>
+
+    <sensor id="temp_habitacio" limit="temperatura &gt; 40ºC"/>
+
+    <condicions>L&apos;oferta es valida per a compres &gt; 50€ &amp; &lt; 100€</condicions>
+
+    <producte>
+        <nom>Ordinador &quot;El Ràpid&quot;</nom>
+        <descripcio>Un ordinador ràpid &amp; potent.</descripcio>
+        <garantia>La garantia de l&apos;equip és &gt; 2 anys.</garantia>
+    </producte>
+
+    <datos>
+        <producto>Pan &amp; Mantequilla</producto>
+        <comentario>Me encanta el lenguaje C++ porque &gt; es un operador.</comentario>
+        <libro titulo="Los &quot;Secretos&quot; del Código">
+            <autor>Juan Pérez</autor>
+        </libro>
+    </datos>
+</especials>

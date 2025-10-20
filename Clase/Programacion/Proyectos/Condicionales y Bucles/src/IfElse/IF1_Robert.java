@@ -7,7 +7,7 @@ import java.util.Scanner;
  *
  * @author r.royo
  */
-public class Ej1_Robert {
+public class IF1_Robert {
     
     static {
         System.setOut(new PrintStream(System.out, true, java.nio.charset.StandardCharsets.UTF_8));

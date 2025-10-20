@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<biblioteca 
+    xmlns:lib="http://example.org/llibres"
+    xmlns:rev="http://example.org/revistes"
+>
+
+    <lib:libros>
+
+        <lib:llibre>
+            <lib:titol>Made in abyss</lib:titol>
+            <lib:autor>Akihito tsukushi</lib:autor>
+        </lib:llibre>
+        <lib:llibre>
+            <lib:titol>Ruri Dragon</lib:titol>
+            <lib:autor>Masaoki Shindō</lib:autor>
+        </lib:llibre>
+
+    </lib:libros>
+    <rev:revistas>
+
+        <rev:revista>
+            <rev:titol>Revista 1</rev:titol>
+            <rev:editor>Editorial 1</rev:editor>
+        </rev:revista>
+        <rev:revista>
+            <rev:titol>Revista 2</rev:titol>
+            <rev:editor>Editorial 2</rev:editor>
+        </rev:revista>
+
+    </rev:revistas>
+
+</biblioteca>

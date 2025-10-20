@@ -1,4 +1,4 @@
-package IfElse;
+package Switch;
 
 import java.io.PrintStream;
 import java.util.Scanner;
@@ -7,7 +7,7 @@ import java.util.Scanner;
  *
  * @author r.royo
  */
-public class IF3_Robert {
+public class Switch3_Robert {
     
     static {
         System.setOut(new PrintStream(System.out, true, java.nio.charset.StandardCharsets.UTF_8));
@@ -21,13 +21,13 @@ public class IF3_Robert {
      */
     public static void main(String[] args) {
         
-        System.out.print("Introduce un numero: ");
-        int numero = IN.nextInt();
+        System.out.print("Introdueix la teva edat: ");
+        int edat = IN.nextInt();
         
-        if (numero > 50 && numero < 100) {
-            System.out.println("El numero " + numero + " esta entre los numeros 50 y 100");
-        } else {
-            System.out.println("El numero " + numero + " no esta entre los numeros 50 y 100");
+        switch (edat) {
+            case 3, 4, 5 -> System.out.println("Infantil");
+            case 6, 7, 8, 9, 10, 11 -> System.out.println("Primaria");
+            case 12, 13, 14, 15, 16 -> System.out.println("Secundaria");
         }
         
     }

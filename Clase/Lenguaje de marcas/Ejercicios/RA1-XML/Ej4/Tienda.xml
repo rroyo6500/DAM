@@ -16,13 +16,19 @@
 
     <cat:tecnologia>
 
-
+        <prod:cpu>
+            <prod:nom>AMD Ryzen 5 5700X</prod:nom>
+            <prod:preu unitat="€">500</prod:preu>
+        </prod:cpu>
 
     </cat:tecnologia>
 
     <cat:begudes>
 
-
+        <prod:fanta>
+            <prod:nom>Fanta</prod:nom>
+            <prod:preu unitat="€">2</prod:preu>
+        </prod:fanta>
 
     </cat:begudes>
 
