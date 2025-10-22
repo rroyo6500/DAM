@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<hotels>
+
+    <hotel>
+        <nom>The Madrid EDITION</nom>
+        <telefon prefijo="+34">919545420</telefon>
+        <adreca>Plaça de Celenque 2</adreca>
+        <ciutat>Madrid</ciutat>
+        <pais>Espanya</pais>
+        <numeroEstrellas>5</numeroEstrellas>
+        <dexcripcio>
+            Hotel de luxe situat al centre de Madrid, amb un enfocament modern i de disseny. Ofereix habitacions i suites elegants, penthouses amb terrassa, piscina exterior, gimnàs i spa.
+        </dexcripcio>
+        <numeroHabitacionsInd>177</numeroHabitacionsInd>
+        <numeroSuites>21</numeroSuites>
+    </hotel>
+    <hotel>
+        <nom>El Place Barcelona</nom>
+        <telefon prefijo="+34">935101130</telefon>
+        <adreca>Gran Via de les Corts Catalanes 668</adreca>
+        <ciutat>Barcelona</ciutat>
+        <pais>Espanya</pais>
+        <numeroEstrellas>5</numeroEstrellas>
+        <dexcripcio>
+            Hotel històric i emblemàtic al cor de Barcelona. Combina elegància tradicional amb confort modern, ubicat en un edifici de prestigi i amb un ambient de luxe clàssic.
+        </dexcripcio>
+        <numeroHabitacionsInd>83</numeroHabitacionsInd>
+        <numeroSuites>42</numeroSuites>
+    </hotel>
+
+</hotels>

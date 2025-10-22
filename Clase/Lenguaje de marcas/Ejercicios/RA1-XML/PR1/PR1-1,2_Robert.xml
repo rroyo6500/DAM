@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<cataleg>
+
+    <llibre>
+        <titol numeroDeTomo="14">Made in abyss</titol>
+        <autor>Akihito Tsukushi</autor>
+        <any>2025</any>
+        <preu moneda="EUR">9,99</preu>
+    </llibre>
+    <llibre>
+        <titol>Cien años de soledad</titol>
+        <autor>Gabreiel García Márquez</autor>
+        <any>1967</any>
+        <preu moneda="EUR">17,90</preu>
+    </llibre>
+    <llibre>
+        <titol>La Regenta</titol>
+        <autor>Leopoldo alas &apos;clarin&apos;</autor>
+        <any>1884</any>
+        <preu moneda="EUR">14,20</preu>
+    </llibre>
+
+</cataleg>

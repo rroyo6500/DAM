@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ciutats>
+
+    <ciutat>
+        <nom>Barcelona</nom>
+        <meteorologia>
+            <dadaMeteorologica tipusDada="temperatura" unitat="ºC">25</dadaMeteorologica>
+            <dadaMeteorologica tipusDada="humitat" unitat="%">60</dadaMeteorologica>
+            <dadaMeteorologica tipusDada="vent" unitat="km/h">15</dadaMeteorologica>
+        </meteorologia>
+    </ciutat>
+
+</ciutats>

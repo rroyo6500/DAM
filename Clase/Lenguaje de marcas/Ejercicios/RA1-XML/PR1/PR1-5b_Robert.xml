@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<comentaris>
+    <dada>
+        <text>A Java utilitzem &gt; per comparar dos elements.</text>
+    </dada>
+    <dada>
+        <text>Per unir dos texts, en java utilitzem dos &amp;&amp;.</text>
+    </dada>
+    <dada>
+        <text>Els Strings a Java van entre cometes.</text>
+        <exemple>&quot;Cadena de text&quot;</exemple>
+    </dada>
+</comentaris>

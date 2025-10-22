@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<producte>
+    <nom>Ordinador Portàtil</nom>
+    <preu moneda="EUR">899.99</preu>
+    <descripcio>Un ordinador “lleuger” i potent</descripcio>
+    <fabricant nom="TechCompany"/>
+</producte>
