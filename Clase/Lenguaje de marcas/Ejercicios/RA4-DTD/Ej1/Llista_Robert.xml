@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE llista_reproduccio SYSTEM "Llista_Robert.dtd">
+
+<llista_reproduccio>
+    <canco>
+        <titol>Bohemian Rhapsody</titol>
+        <artista>Queen</artista>
+        <durada>5:55</durada>
+    </canco>
+    <canco>
+        <titol>Imagine</titol>
+        <artista>John Lennon</artista>
+        <durada>3:05</durada>
+    </canco>
+</llista_reproduccio>

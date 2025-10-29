@@ -1,0 +1,6 @@
+<!ELEMENT clients (client+)>
+<!ELEMENT client (id_client, nom, ciutat, telefon?)>
+<!ELEMENT id_client (#PCDATA)>
+<!ELEMENT nom (#PCDATA)>
+<!ELEMENT ciutat (#PCDATA)>
+<!ELEMENT telefon (#PCDATA)>

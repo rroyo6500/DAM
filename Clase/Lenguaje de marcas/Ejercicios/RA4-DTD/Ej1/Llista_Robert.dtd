@@ -1,0 +1,5 @@
+<!ELEMENT llista_reproduccio (canco+)>
+<!ELEMENT canco (titol, artista, durada)>
+<!ELEMENT titol (#PCDATA)>
+<!ELEMENT artista (#PCDATA)>
+<!ELEMENT durada (#PCDATA)>

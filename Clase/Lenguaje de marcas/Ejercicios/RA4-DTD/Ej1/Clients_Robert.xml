@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE clients SYSTEM "Clients_Robert.dtd">
+
+<clients>
+    <client>
+        <id_client>CL001</id_client>
+        <nom>Dupond</nom>
+        <ciutat>París</ciutat>
+        <telefon>0123456789</telefon>
+    </client>
+    <client>
+        <id_client>CL002</id_client>
+        <nom>Martin</nom>
+        <ciutat>Marsella</ciutat>
+    </client>
+</clients>
