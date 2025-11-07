@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pelicules SYSTEM "6.dtd">
+<pelicules>
+    <pelicula>
+        <titol>The Dark Knight</titol>
+        <director>Christopher Nolan</director>
+        <actors>
+            <actor>Christian Bale</actor>
+            <actor>Heath Ledger</actor>
+        </actors>
+        <genere tipus="accio"/>
+    </pelicula>
+    <pelicula>
+        <titol>The Hangover</titol>
+        <director>Todd Phillips</director>
+        <genere tipus="comedia"/>
+    </pelicula>
+</pelicules>

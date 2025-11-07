@@ -1,0 +1,9 @@
+<!ELEMENT pelicules (pelicula+)>
+<!ELEMENT pelicula (titol, director, actors?, genere)>
+
+<!ELEMENT titol (#PCDATA)>
+<!ELEMENT director (#PCDATA)>
+<!ELEMENT actors (actor+)>
+<!ELEMENT actor (#PCDATA)>
+<!ELEMENT genere EMPTY>
+<!ATTLIST genere tipus (accio | comedia | drama | suspens) #REQUIRED>

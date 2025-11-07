@@ -1,0 +1,10 @@
+<!ELEMENT cataleg (producte+)>
+<!ELEMENT producte (nom, descripcio?, categoria?)>
+<!ATTLIST producte
+    codi ID #REQUIRED
+    preu CDATA #REQUIRED
+    disponibilitat CDATA "disponible"
+>
+<!ELEMENT nom (#PCDATA)>
+<!ELEMENT descripcio (#PCDATA)>
+<!ELEMENT categoria (#PCDATA)>

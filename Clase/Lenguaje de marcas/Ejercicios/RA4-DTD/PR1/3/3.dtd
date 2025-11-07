@@ -1,0 +1,13 @@
+<!ELEMENT esdeveniment (obra+)>
+<!ELEMENT obra (director, nom, descripcio?)>
+<!ATTLIST obra 
+    id ID #REQUIRED
+    pais CDATA #REQUIRED
+>
+
+<!ELEMENT director (#PCDATA)>
+<!ELEMENT nom (#PCDATA)>
+<!ATTLIST nom any CDATA #REQUIRED>
+
+<!ELEMENT descripcio (#PCDATA)>
+<!ATTLIST descripcio tema CDATA #REQUIRED>

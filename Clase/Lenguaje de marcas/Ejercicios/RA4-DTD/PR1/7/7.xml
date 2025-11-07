@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE cataleg SYSTEM "7.dtd">
+<cataleg>
+    <producte codi="P001" preu="29.99" disponibilitat="disponible">
+        <nom>Llibre de Programació</nom>
+        <descripcio>Manual complet de Java</descripcio>
+        <categoria>Llibres</categoria>
+    </producte>
+    <producte codi="P002" preu="499.99" disponibilitat="disponible">
+        <nom>Portàtil</nom>
+        <categoria>Electrònica</categoria>
+    </producte>
+    <producte codi="P003" preu="45.99">
+        <nom>Rellotge</nom>
+        <descripcio>Rellotge digital amb cronòmetre</descripcio>
+    </producte>
+    <producte codi="P004" preu="15.50">
+        <nom>Llibreta</nom>
+    </producte>
+</cataleg>

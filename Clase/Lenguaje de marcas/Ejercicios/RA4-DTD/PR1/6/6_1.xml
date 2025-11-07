@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pelicules SYSTEM "6.dtd">
+<pelicules>
+    <pelicula>
+        <titol>Inception</titol>
+        <director>Christopher Nolan</director>
+        <actors>
+            <actor>Leonardo DiCaprio</actor>
+            <actor>Joseph Gordon-Levitt</actor>
+            <actor>Elliot Page</actor>
+        </actors>
+        <genere tipus="suspens"/>
+    </pelicula>
+    <pelicula>
+        <titol>Amélie</titol>
+        <director>Jean-Pierre Jeunet</director>
+        <genere tipus="comedia"/>
+    </pelicula>
+    <pelicula>
+        <titol>The Shawshank Redemption</titol>
+        <director>Frank Darabont</director>
+        <actors>
+            <actor>Tim Robbins</actor>
+            <actor>Morgan Freeman</actor>
+        </actors>
+        <genere tipus="drama"/>
+    </pelicula>
+    <pelicula>
+        <titol>Mad Max: Fury Road</titol>
+        <director>George Miller</director>
+        <actors>
+            <actor>Tom Hardy</actor>
+            <actor>Charlize Theron</actor>
+        </actors>
+        <genere tipus="accio"/>
+    </pelicula>
+</pelicules>

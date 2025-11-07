@@ -22,7 +22,7 @@ public class Excepciones_RobertRoyo {
     /**
      * @param args the command line arguments
      */
-    public static void main(String[] args) throws InterruptedException {
+    public static void main(String[] args) {
 
         int opcion = 0;
         do {
@@ -99,7 +99,6 @@ public class Excepciones_RobertRoyo {
                         }
                     }
                     case 3 -> {
-
                         while (true) {
                             try {
                                 System.out.println("\nCreando un String...");
@@ -110,38 +109,49 @@ public class Excepciones_RobertRoyo {
                                 for (int i = 0; i < 5; i++) {
                                     str += (char) R.nextInt(97, 123);
                                 }
-                                System.out.println("El String generado es: " + str);
+                                System.out.println("El String generado es: \033[32m" + str + "\033[0m");
 
                                 System.out.print("Introduce una posicion del string (1 - 5): ");
                                 int pos = IN.nextInt();
                                 
-                                if (pos < 1 || pos > 5) {
-                                    throw new IllegalArgumentException("ERROR: Posicion fuera de ranfo (1 - 5).");
-                                }
-                                
-                                System.out.println("En la posicion " + pos + " hay: " + str.charAt(pos-1));
+                                System.out.println("En la posicion \033[33m" + pos + "\033[0m hay: \033[32m" + str.charAt(pos-1) + "\033[0m");
                                 break;
                             } catch (InterruptedException ie) {
                                 System.err.println("ERROR: Error en la generacion del String.");
                             } catch (InputMismatchException ime) {
                                 System.err.println("ERROR: Debes introducir la posicion en forma de numero (1 - 5).");
-                            } catch (IllegalArgumentException iae) {
-                                System.err.println(iae.getMessage());
-                            }finally {
+                            } catch (StringIndexOutOfBoundsException soobe) {
+                                System.err.println("ERROR: Posicion fuera de rango (1 - 5).");
+                            } finally {
                                 IN.nextLine();
                             }
-                            
-
                         }
-
                     }
                     case 4 -> {
-
+                        while (true) {
+                            try {
+                                System.out.print("\nIntroduce las filas: ");
+                                int filas = Integer.parseInt(IN.nextLine());
+                                
+                                System.out.print("Introduce las columnas: ");
+                                int columnas = Integer.parseInt(IN.nextLine());
+                                
+                                if (((filas * columnas) % 2) == 1) {
+                                    throw new IllegalArgumentException("ERROR: Tablero Incorrecto.");
+                                }
+                                
+                                System.out.println((filas * columnas) + " fichas totales");
+                                break;
+                            } catch (NumberFormatException nfe) {
+                                System.err.println("ERROR: Debes introducir numeros");
+                            } catch (IllegalArgumentException iae) {
+                                System.err.println(iae.getMessage());
+                            }
+                        }
                     }
                     case 5 ->
                         System.exit(0);
                 }
-
             } catch (InputMismatchException ime) {
                 System.err.println("ERROR: Debes seleccionar una de las opciones existentes con su numero asignado.");
                 IN.nextLine();
