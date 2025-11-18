@@ -1,3 +1,5 @@
+import 'dart:io';
+
 import 'package:flutter/material.dart';
 
 void main() {
@@ -11,20 +13,28 @@ class MainApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       home: Scaffold(
-        backgroundColor: Colors.blue,
-        body: Container(
-          color: Colors.orange,
-          // padding: const EdgeInsets.all(16.0),
-          // padding: const EdgeInsets.symmetric(horizontal: 50.0, vertical: 10.0),
-          padding: const EdgeInsets.only(
-            left: 30.0,
-            top: 50.0,
-            right: 10.0,
-            bottom: 70.0,
-          ),
-          child: const Text(
-            "Hello World!",
-            style: TextStyle(color: Colors.lightGreenAccent),
+        body: Center(
+          child: Container(
+            decoration: BoxDecoration(
+              color: Colors.amber,
+              borderRadius: BorderRadius.circular(50),
+              border: Border.all(
+                color: Colors.blue,
+                width: 10
+              ),
+              boxShadow: [
+                BoxShadow(
+                  color: Colors.blue,
+                  blurRadius: 10,
+                  offset: Offset(5, 5),
+                ),
+              ],
+            ),
+            width: 300,
+            height: 300,
+            child: Center(
+              child: Text('Hello world!!')
+            ),
           ),
         ),
       ),

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<registrealumnes
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:noNamespaceSchemaLocation="2.xsd"
+>
+    <alumne id="1">
+        <nom>Anna</nom>
+        <cognom>García</cognom>
+        <edat>22</edat>
+    </alumne>
+    <alumne id="2">
+        <nom>Joan</nom>
+        <cognom>Pérez</cognom>
+        <edat>19</edat>
+    </alumne>
+</registrealumnes>
