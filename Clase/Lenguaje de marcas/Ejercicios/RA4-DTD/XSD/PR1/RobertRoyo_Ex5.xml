@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<personal
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:noNamespaceSchemaLocation="RobertRoyo_Ex5.xsd"
+>
+    <persona id="p01">
+        <dades tipus="personals">
+            <nom>Eduard</nom>
+            <cognoms complet="si">
+                <primer>Moliner</primer>
+                <segon>Luque</segon>
+            </cognoms>
+            <dni>25390952J</dni>
+        </dades>
+        <direccio tipus="A">Padilla 34 1-2</direccio>
+        <comentari>Dades alumnat</comentari>
+    </persona>
+    <persona id="p02">
+        <dades tipus="oficials">
+            <nom>Josep</nom>
+            <nom>Manel</nom>
+            <cognoms complet="no">
+                <primer>Vera</primer>
+            </cognoms>
+            <dni>45390952H</dni>
+        </dades>
+        <direccio tipus="A">Pearson 34 1-2</direccio>
+        <comentari>Això és una persona oficial</comentari>
+    </persona>
+</personal>
