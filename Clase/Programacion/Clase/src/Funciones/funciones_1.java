@@ -1,9 +1,8 @@
 package Funciones;
 
-import java.lang.reflect.Type;
 import java.util.Scanner;
 
-public class funciones {
+public class funciones_1 {
 
     private static final Scanner IN = new Scanner(System.in);
 

@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="70da184d-ac41-48f9-afc7-dfe642f8ea66" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/../Ingles/Proyectos/Ingles/example_container/lib/main.dart" beforeDir="false" afterPath="$PROJECT_DIR$/../Ingles/Proyectos/Ingles/example_container/lib/main.dart" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Ingles/Proyectos/flutter" beforeDir="false" afterPath="$PROJECT_DIR$/../Ingles/Proyectos/flutter" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -50,7 +49,7 @@
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-jdk-9823dce3aa75-bf35d07a577b-intellij.indexing.shared.core-IU-252.27397.103" />
+        <option value="bundled-jdk-9823dce3aa75-bf35d07a577b-intellij.indexing.shared.core-IU-252.28238.7" />
       </set>
     </attachedChunks>
   </component>
