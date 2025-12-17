@@ -1,11 +1,69 @@
-package ActividadFunciones;
+package SpotifyRobertRoyo;
+
+import java.io.PrintStream;
+import java.nio.charset.StandardCharsets;
+import java.util.Scanner;
 
 public class ActividadFunciones_Robert {
 
+    static {
+        System.setOut(new PrintStream(System.out, true, StandardCharsets.UTF_8));
+        System.setErr(new PrintStream(System.err, true, StandardCharsets.UTF_8));
+    }
+
+    private static final Scanner IN = new Scanner(System.in);
+
+    private static final double PAGA_PREMIUM = 0.009;
+    private static final double PAGA_NORMAL = 0.002;
+
     public static void main(String[] args) {
 
-        
+        System.out.println(TStyle.bold(TStyle.green("=== " + TStyle.underline("BENVINGUT A SPOTIFY ANALITICS")) + TStyle.green(" ===")));
+        System.out.println("Analitzarem les dades dels pròxims " + TStyle.bold(TStyle.cyan("7")) + " dies");
+        System.out.println("Objectiu diari: " + TStyle.bold(TStyle.yellow("100.0€")));
+        System.out.println("----------------------------------------");
 
+        for (int i = 1; i <= 7; i++) {
+            System.out.println("------------------" + TStyle.bold(TStyle.underline(TStyle.cyan("DIA" + i))) + "------------------");
+        }
+
+    }
+
+    public static double getPercentage(String msg, int min, int max) {
+        System.out.print(msg + ": ");
+        int num = IN.nextInt();
+        IN.nextLine();
+
+        if (num < min || num > max) 
+            throw new IllegalArgumentException(String.format("ERROR: Number out of range (%d - %d)", min, max));
+
+        return (double) num / 100;
+    }
+
+    public static double calc(int streams, double percentagePremium) {
+        int cantidadPremium = (int) (streams * percentagePremium);
+        int cantidadNormal = streams - cantidadPremium;
+
+        double pagaPremium = cantidadPremium * PAGA_PREMIUM;
+        double pagaNormal = cantidadNormal * PAGA_NORMAL;
+
+        return pagaNormal + pagaPremium;
+    }
+
+    public static String barraVisualizacion(double ingresos) {
+        int cantLineas = (int) (ingresos / 10);
+        if (cantLineas > 10) cantLineas = 10;
+        int cantPuntos = 10 - cantLineas;
+
+        String ret = "";
+        for (int i = 0; i < cantLineas; i++){
+            ret += "|";
+        }
+        for (int i = 0; i < cantPuntos; i++) {
+            ret += ".";
+        }
+
+        return String.format("[%s]", ret);
     }
 
 }
@@ -40,71 +98,92 @@ class TStyle {
     private static final String STRIKETHROUGH = "\u001B[9m";
 
     // text colors
-    public static String red(Object msg) {
+    public static String red(String msg) {
+
         return RED + msg + RESET;
     }
-    public static String green(Object msg) {
+    public static String green(String msg) {
+
         return GREEN + msg + RESET;
     }
-    public static String yellow(Object msg) {
+    public static String yellow(String msg) {
+
         return YELLOW + msg + RESET;
     }
-    public static String blue(Object msg) {
+    public static String blue(String msg) {
+
         return BLUE + msg + RESET;
     }
-    public static String magenta(Object msg) {
+    public static String magenta(String msg) {
+
         return MAGENTA + msg + RESET;
     }
-    public static String cyan(Object msg) {
+    public static String cyan(String msg) {
+
         return CYAN + msg + RESET;
     }
-    public static String white(Object msg) {
+    public static String white(String msg) {
+
         return WHITE + msg + RESET;
     }
-    public static String black(Object msg) {
+    public static String black(String msg) {
+
         return BLACK + msg + RESET;
     }
 
     // text bg
-    public static String bg_black(Object msg) {
+    public static String bg_black(String msg) {
+
         return BG_BLACK + msg + RESET;
     }
-    public static String bg_red(Object msg) {
+    public static String bg_red(String msg) {
+
         return BG_RED + msg + RESET;
     }
-    public static String bg_green(Object msg) {
+    public static String bg_green(String msg) {
+
         return BG_GREEN + msg + RESET;
     }
-    public static String bg_yellow(Object msg) {
+    public static String bg_yellow(String msg) {
+
         return BG_YELLOW + msg + RESET;
     }
-    public static String bg_blue(Object msg) {
+    public static String bg_blue(String msg) {
+
         return BG_BLUE + msg + RESET;
     }
-    public static String bg_magenta(Object msg) {
+    public static String bg_magenta(String msg) {
+
         return BG_MAGENTA + msg + RESET;
     }
-    public static String bg_cyan(Object msg) {
+    public static String bg_cyan(String msg) {
+
         return BG_CYAN + msg + RESET;
     }
-    public static String bg_white(Object msg) {
+    public static String bg_white(String msg) {
+
         return BG_WHITE + msg + RESET;
     }
 
     // text style
-    public static String bold(Object msg){
+    public static String bold(String msg){
+
         return BOLD + msg + RESET;
     }
-    public static String italic(Object msg){
+    public static String italic(String msg){
+
         return ITALIC + msg + RESET;
     }
-    public static String underline(Object msg){
+    public static String underline(String msg){
+
         return UNDERLINE + msg + RESET;
     }
-    public static String reversed(Object msg){
+    public static String reversed(String msg){
+
         return REVERSE + msg + RESET;
     }
-    public static String strikethrough(Object msg){
+    public static String strikethrough(String msg){
+
         return STRIKETHROUGH + msg + RESET;
     }
 
