@@ -2,6 +2,7 @@ package SpotifyRobertRoyo;
 
 import java.io.PrintStream;
 import java.nio.charset.StandardCharsets;
+import java.util.Arrays;
 import java.util.Scanner;
 
 public class ActividadFunciones_Robert {
@@ -24,12 +25,15 @@ public class ActividadFunciones_Robert {
         System.out.println("----------------------------------------");
 
         for (int i = 1; i <= 7; i++) {
-            System.out.println("------------------" + TStyle.bold(TStyle.underline(TStyle.cyan("DIA" + i))) + "------------------");
+            System.out.println("------------------" + TStyle.bold(TStyle.underline(TStyle.cyan("DIA" + i))) + "------------------\n");
+
+            System.out.print("Reproducciones del dia " + TStyle.bold(TStyle.underline(TStyle.cyan(i))) + ": ");
+            int reproducciones = IN.nextInt();
         }
 
     }
 
-    public static double getPercentage(String msg, int min, int max) {
+    public static double getPercentage(Object msg, int min, int max) {
         System.out.print(msg + ": ");
         int num = IN.nextInt();
         IN.nextLine();
@@ -98,92 +102,71 @@ class TStyle {
     private static final String STRIKETHROUGH = "\u001B[9m";
 
     // text colors
-    public static String red(String msg) {
-
+    public static String red(Object msg) {
         return RED + msg + RESET;
     }
-    public static String green(String msg) {
-
+    public static String green(Object msg) {
         return GREEN + msg + RESET;
     }
-    public static String yellow(String msg) {
-
+    public static String yellow(Object msg) {
         return YELLOW + msg + RESET;
     }
-    public static String blue(String msg) {
-
+    public static String blue(Object msg) {
         return BLUE + msg + RESET;
     }
-    public static String magenta(String msg) {
-
+    public static String magenta(Object msg) {
         return MAGENTA + msg + RESET;
     }
-    public static String cyan(String msg) {
-
+    public static String cyan(Object msg) {
         return CYAN + msg + RESET;
     }
-    public static String white(String msg) {
-
+    public static String white(Object msg) {
         return WHITE + msg + RESET;
     }
-    public static String black(String msg) {
-
+    public static String black(Object msg) {
         return BLACK + msg + RESET;
     }
 
     // text bg
-    public static String bg_black(String msg) {
-
+    public static String bg_black(Object msg) {
         return BG_BLACK + msg + RESET;
     }
-    public static String bg_red(String msg) {
-
+    public static String bg_red(Object msg) {
         return BG_RED + msg + RESET;
     }
-    public static String bg_green(String msg) {
-
+    public static String bg_green(Object msg) {
         return BG_GREEN + msg + RESET;
     }
-    public static String bg_yellow(String msg) {
-
+    public static String bg_yellow(Object msg) {
         return BG_YELLOW + msg + RESET;
     }
-    public static String bg_blue(String msg) {
-
+    public static String bg_blue(Object msg) {
         return BG_BLUE + msg + RESET;
     }
-    public static String bg_magenta(String msg) {
-
+    public static String bg_magenta(Object msg) {
         return BG_MAGENTA + msg + RESET;
     }
-    public static String bg_cyan(String msg) {
-
+    public static String bg_cyan(Object msg) {
         return BG_CYAN + msg + RESET;
     }
-    public static String bg_white(String msg) {
-
+    public static String bg_white(Object msg) {
         return BG_WHITE + msg + RESET;
     }
 
     // text style
-    public static String bold(String msg){
-
+    public static String bold(Object msg){
         return BOLD + msg + RESET;
     }
-    public static String italic(String msg){
-
+    public static String italic(Object msg){
         return ITALIC + msg + RESET;
     }
-    public static String underline(String msg){
-
+    public static String underline(Object msg){
         return UNDERLINE + msg + RESET;
     }
-    public static String reversed(String msg){
-
+    public static String reversed(Object msg){
         return REVERSE + msg + RESET;
     }
-    public static String strikethrough(String msg){
-
+    public static String strikethrough(Object msg){
         return STRIKETHROUGH + msg + RESET;
     }
 
