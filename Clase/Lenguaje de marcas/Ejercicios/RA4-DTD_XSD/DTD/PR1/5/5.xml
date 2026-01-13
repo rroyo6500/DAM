@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE inventari SYSTEM "5.dtd">
+<inventari>
+    <vehicle id="v01">
+        <dades tipus="comercial">
+            <marca>Toyota</marca>
+            <model complet="si">
+                <nom>Hilux</nom>
+                <variant>GR-Sport</variant>
+            </model>
+            <matricula>1234ABC</matricula>
+        </dades>
+        <ubicacio tipus="garatge">Zona A, plaça 15</ubicacio>
+        <comentari>Vehicle de càrrega lleugera</comentari>
+    </vehicle>
+    <vehicle id="v02">
+        <dades tipus="personal">
+            <marca>BMW</marca>
+            <model complet="no">
+                <nom>Serie 3</nom>
+            </model>
+            <matricula>5678DEF</matricula>
+        </dades>
+        <ubicacio tipus="exterior">Pàrquing B, plaça 22</ubicacio>
+        <comentari>Vehicle assignat a direcció</comentari>
+    </vehicle>
+</inventari>

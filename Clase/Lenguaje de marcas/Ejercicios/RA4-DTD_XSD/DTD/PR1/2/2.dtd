@@ -1,0 +1,12 @@
+<!ELEMENT academia (curs+)>
+
+<!ELEMENT curs (nom, durada)>
+<!ATTLIST curs
+    id ID #REQUIRED
+    nivell (basic | intermedi | avançat) #REQUIRED
+>
+
+<!ELEMENT nom (#PCDATA)>
+
+<!ELEMENT durada (#PCDATA)>
+<!ATTLIST durada mida (hores) #REQUIRED>

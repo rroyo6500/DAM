@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<conferencia
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:noNamespaceSchemaLocation="RobertRoyo_Ex3.xsd"
+>
+    <participant id="P001" pais="Espanya">
+        <nom>Maria </nom>
+        <presentacio tema="intel·ligència artificial">Intel·ligència artificial en l'Educació</presentacio>
+    </participant>
+    <participant id="P002" pais="Estats Units">
+        <nom>John Smith</nom>
+        <presentacio>El Futur de Blockchain</presentacio>
+    </participant>
+</conferencia>

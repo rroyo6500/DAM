@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<catalog
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:noNamespaceSchemaLocation="RobertRoyo_Ex4.xsd"
+>
+    <book id="B001">
+        <title>Libro 1</title>
+        <author>Autor 1</author>
+        <year>2023</year>
+    </book>
+    <book id="B002">
+        <title>Libro 2</title>
+        <author>Autor 2</author>
+        <year>2021</year>
+        <additional-info>
+            <review>Excelente libro para leer</review>
+        </additional-info>
+    </book>
+    <book id="B003">
+        <title>Libro 3</title>
+        <author>Autor 3</author>
+        <year>2019</year>
+        <additional-info>
+            <review>Recomendado para entusiastas de la ciencia ficción</review>
+        </additional-info>
+    </book>
+</catalog>

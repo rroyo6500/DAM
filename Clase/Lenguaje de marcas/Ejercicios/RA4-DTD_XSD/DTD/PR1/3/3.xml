@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE esdeveniment SYSTEM "3.dtd">
+<esdeveniment>
+    <obra id="O001" pais="França">
+        <director>Victor Hugo</director>
+        <nom any="1862">Els Miserables</nom>
+    </obra>
+    <obra id="A002" pais="Rússia">
+        <director>Fiódor Dostoievski</director>
+        <nom any="1866">Crim i càstig</nom>
+        <descripcio tema="Literatura psicològica">
+            La influència de la literatura psicològica a Rússia
+        </descripcio>
+    </obra>
+</esdeveniment>

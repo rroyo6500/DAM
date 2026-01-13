@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE academia SYSTEM "2.dtd">
+<academia>
+    <curs id="C001" nivell="intermedi">
+        <nom>Desenvolupament Web</nom>
+        <durada mida="hores">50</durada>
+    </curs>
+    <curs id="C002" nivell="avançat">
+        <nom>Programació en Python</nom>
+        <durada mida="hores">60</durada>
+    </curs>
+</academia>

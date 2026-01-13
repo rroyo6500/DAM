@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<menu
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:noNamespaceSchemaLocation="RobertRoyo_Ex1.xsd"
+>
+    <plat id="P001">
+        <nom>Paella</nom>
+        <tipus>Principal</tipus>
+        <preu moneda="EUR">15.50</preu>
+    </plat>
+    <plat id="P002">
+        <nom>Ensalada</nom>
+        <tipus>Entrant</tipus>
+        <preu moneda="EUR">8.50</preu>
+    </plat>
+</menu>

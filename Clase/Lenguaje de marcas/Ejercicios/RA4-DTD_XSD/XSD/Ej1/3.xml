@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pelicules
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:noNamespaceSchemaLocation="3.xsd"
+>
+    <pelicula nominada="si">
+        <titol>Uno de los nuestros</titol>
+        <format>DVD</format>
+        <preu moneda="EUR">29.99</preu>
+    </pelicula>
+    <pelicula nominada="no">
+        <titol>El rey león</titol>
+        <format>Blu-ray</format>
+        <preu moneda="EUR">20</preu>
+    </pelicula>
+</pelicules>

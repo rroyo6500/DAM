@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE llibreria SYSTEM "1.dtd">
+<llibreria>
+    <llibre id="L001">
+        <titol>1984</titol>
+        <autor>George Orwell</autor>
+        <genere>Ficció</genere>
+        <preu moneda="DOL">12.99</preu>
+    </llibre>
+    <llibre id="L002">
+        <titol>Orgull i prejudici</titol>
+        <autor>Jane Austen</autor>
+        <genere>Romàntic</genere>
+        <preu moneda="DOL">10.50</preu>
+    </llibre>
+    <llibre id="L003">
+        <titol>Orgull i prejudici</titol>
+        <autor>Jane Austen</autor>
+        <genere>Romàntic</genere>
+        <preu moneda="DOL">10.50</preu>
+    </llibre>
+</llibreria>

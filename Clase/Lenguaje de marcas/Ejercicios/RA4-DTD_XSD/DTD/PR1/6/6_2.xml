@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pelicules SYSTEM "6.dtd">
+<pelicules>
+    <pelicula>
+        <titol>Kimetsu no yaiba: castillo infinito</titol>
+        <director>Hikaru Kondô</director>
+        <genere tipus="accio"/>
+    </pelicula>
+    <pelicula>
+        <titol>Interestelar</titol>
+        <director>Christopher Nolan</director>
+        <actors>
+            <actor>Matthew McConaughey</actor>
+            <actor>Anne Hathaway</actor>
+            <actor>Jessica Chastain</actor>
+            <actor>Michael Caine</actor>
+        </actors>
+        <genere tipus="suspens"/>
+    </pelicula>
+    <pelicula>
+        <titol>Titanic</titol>
+        <director>James Cameron</director>
+        <actors>
+            <actor>Leonardo DiCaprio</actor>
+            <actor>Kate Winslet</actor>
+        </actors>
+        <genere tipus="drama"/>
+    </pelicula>
+</pelicules>
