@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="b486b3ac-09c0-48b7-87af-27993e221a49" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../Proyectos/Clase_Idea/src/Clases/Ex1/Auxiliar.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Proyectos/Clase_Idea/src/Clases/Ex1/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Proyectos/Clase_Idea/src/Funciones/SpotifyRobertRoyo/ActividadFunciones_Robert.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Proyectos/Clase_Idea/src/TStyle/TStyle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Ingles/Proyectos/Ingles/Presentaciones/row_widget/lib/main.dart" beforeDir="false" afterPath="$PROJECT_DIR$/../../Ingles/Proyectos/Ingles/Presentaciones/row_widget/lib/main.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Ingles/Proyectos/flutter" beforeDir="false" afterPath="$PROJECT_DIR$/../../Ingles/Proyectos/flutter" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/../Proyectos/Clase_Idea/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/../Proyectos/Clase_Idea/.idea/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Proyectos/Clase_Idea/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Proyectos/Clase_Idea/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Proyectos/Clase_Idea/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Clase.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../Proyectos/Clase_Idea/Clase_Idea.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Funciones/funciones_1.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Proyectos/Clase_Idea/src/Funciones/Funciones_Acciones/funciones_1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Funciones/funciones_2.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Proyectos/Clase_Idea/src/Funciones/Funciones_Acciones/funciones_2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Funciones/funciones_3.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Proyectos/Clase_Idea/src/Funciones/Funciones_Acciones/funciones_3.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/FuncionesConRetorno/FReturn_1.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Proyectos/Clase_Idea/src/Funciones/FuncionesConRetorno/FReturn_1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/FuncionesConRetorno/FReturn_2.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Proyectos/Clase_Idea/src/Funciones/FuncionesConRetorno/FReturn_2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/FuncionesConRetorno/FReturn_3.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Proyectos/Clase_Idea/src/Funciones/FuncionesConRetorno/FReturn_3.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/FuncionesConRetorno/FReturn_4.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Proyectos/Clase_Idea/src/Funciones/FuncionesConRetorno/FReturn_4.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/FuncionesConRetorno/FReturn_5.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Proyectos/Clase_Idea/src/Funciones/FuncionesConRetorno/FReturn_5.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/FuncionesConRetorno/FReturn_6.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Proyectos/Clase_Idea/src/Funciones/FuncionesConRetorno/FReturn_6.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/SpotifyRobertRoyo/ActividadFunciones_Robert.java" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../.." />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;rroyo6500&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/rroyo6500/DAM.git&quot;,
+    &quot;accountId&quot;: &quot;1c6894b5-1e96-4227-bdec-6360a8ebe165&quot;
+  }
+}</component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 3
+}</component>
+  <component name="ProjectId" id="36Pvifk5NrRHdhJJevPK4KpbQTF" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;Application.ActividadFunciones_Robert.executor&quot;: &quot;Run&quot;,
+    &quot;Application.FReturn_1.executor&quot;: &quot;Run&quot;,
+    &quot;Application.FReturn_2.executor&quot;: &quot;Run&quot;,
+    &quot;Application.FReturn_3.executor&quot;: &quot;Run&quot;,
+    &quot;Application.FReturn_4.executor&quot;: &quot;Run&quot;,
+    &quot;Application.FReturn_5.executor&quot;: &quot;Run&quot;,
+    &quot;Application.FReturn_6.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Main.executor&quot;: &quot;Run&quot;,
+    &quot;Application.funciones.executor&quot;: &quot;Run&quot;,
+    &quot;Application.funciones_2.executor&quot;: &quot;Run&quot;,
+    &quot;Application.funciones_3.executor&quot;: &quot;Run&quot;,
+    &quot;Application.main.executor&quot;: &quot;Run&quot;,
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;editing.templates&quot;
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\r.royo\Documents\DAM\Clase\Programacion\Proyectos" />
+    </key>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-30f59d01ecdd-26cb7f24e5b0-intellij.indexing.shared.core-IU-253.29346.240" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="b486b3ac-09c0-48b7-87af-27993e221a49" name="Changes" comment="" />
+      <created>1757921525383</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1757921525383</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
+  </component>
+</project>

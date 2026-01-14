@@ -58,8 +58,50 @@
                 <img src="IMG/LogoCopilot.svg" alt="Logo de Microsoft Copilot" title="Copilot" width="100">
             </article>
         </section>
-        <section></section>
+        <br><hr><br>
         <section>
+            <form action="submit" method="post">
+                <label for="username">Nom: </label>
+                <input type="text" name="username" placeholder="Nom d'usuari">
+                <br><br>
+
+                <label for="email">Correu electrònic: </label>
+                <input type="email" name="email" placeholder="example@gmail.com">
+                <br><br>
+
+                <label for="IA">Quina IA vols valorar?: </label>
+                <select name="IA" id="IA">
+                    <option disabled selected></option>
+                    <option value="ChatGPT">ChatGPT</option>
+                    <option value="Google Gemini">Google Gemini</option>
+                    <option value="Microsoft Copilot">Microsoft Copilot</option>
+                </select>
+                <br><br>
+
+                <label for="rating">Com valores aquesta IA?</label>
+                <div name="rating" >
+                    <input type="radio" name="excelent" value="1">
+                    <label for="excelent">Excel·lent</label>
+
+                    <input type="radio" name="bona" value="2">
+                    <label for="bona">Bona</label>
+
+                    <input type="radio" name="millorable" value="3">
+                    <label for="millorable">Millorable</label>
+                </div>
+                <br><br>
+
+                <label for="comment">Comentari: </label><br>
+                <textarea name="comment" id="comentari" placeholder="Escriu el teu comentari..." rows="4" cols="40"></textarea>
+                <br><br>
+
+                <input type="checkbox" name="subscribe">
+                <label for="subscribe">Vull rebre novetats sobre IA</label>
+                <br><br>
+
+                <input type="submit" value="Enviar">
+
+            </form>
         </section>
     </main>
     <footer></footer>

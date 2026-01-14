@@ -16,7 +16,6 @@ class MainApp extends StatelessWidget {
             //spacing: 20, //añade espacio entre los elementos. parecido a un margen
             //textDirection: TextDirection.rtl, //cambia la direccion del row (de izquierda a derecha o viceversa)
             mainAxisAlignment: MainAxisAlignment.center, // permite alinear los elementos en diferentes posiciones y formas (siempre en horizontal) [start, end, center, spaceBetween, spaceAround, spaceEvenly]
-            textBaseline: TextBaseline.ideographic,
             children: [
               Container(
                 width: 100,
