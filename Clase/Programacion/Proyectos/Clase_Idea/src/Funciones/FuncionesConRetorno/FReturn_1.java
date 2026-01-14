@@ -1,4 +1,4 @@
-package FuncionesConRetorno;
+package Funciones.FuncionesConRetorno;
 
 import java.io.PrintStream;
 import java.nio.charset.StandardCharsets;

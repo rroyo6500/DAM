@@ -1,4 +1,4 @@
-package Funciones;
+package Funciones.Funciones_Acciones;
 
 import java.util.Scanner;
 

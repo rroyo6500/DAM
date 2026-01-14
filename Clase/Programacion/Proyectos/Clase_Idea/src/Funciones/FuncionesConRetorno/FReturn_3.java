@@ -1,4 +1,4 @@
-package FuncionesConRetorno;
+package Funciones.FuncionesConRetorno;
 
 import java.util.Scanner;
 

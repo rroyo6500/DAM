@@ -1,4 +1,4 @@
-package FuncionesConRetorno;
+package Funciones.FuncionesConRetorno;
 
 public class FReturn_6 {
 
