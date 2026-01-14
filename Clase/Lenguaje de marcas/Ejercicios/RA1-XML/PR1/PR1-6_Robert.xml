@@ -1,1 +1,51 @@
 <?xml version="1.0" encoding="UTF-8"?>
+
+<pelicules>
+
+	<pelicula>
+		<titol>Kimetsu no yaiba - La fortaleza infinita</titol>
+		<directores>
+			<director>Hikaru Kondo</director>
+			<director>Haruo Sotozaki</director>
+		</directores>
+		<any>2025</any>
+		<generes>
+			<genere>Animacion</genere>
+			<genere>Accion</genere>
+			<genere>Aventura</genere>
+			<genere>Fantasia</genere>
+			<genere>Suspense</genere>
+		</generes>
+		<durada unitat="hores">2,5</durada>
+		<valoracio notaMaxima="10">8,5</valoracio>
+	</pelicula>
+	<pelicula>
+		<titol>Interestelar</titol>
+		<directores>
+			<director>Christopher Nolan</director>
+		</directores>
+		<any>2014</any>
+		<generes>
+			<genere>Aventura</genere>
+			<genere>Drama</genere>
+			<genere>Ciencia Ficcion</genere>
+		</generes>
+		<durada unitat="hores">2,5</durada>
+		<valoracio notaMaxima="10">8,7</valoracio>
+	</pelicula>
+	<pelicula>
+		<titol>Openhimer</titol>
+		<directores>
+			<director>Christopher Nolan</director>
+		</directores>
+		<any>2023</any>
+		<generes>
+			<genere>Biografia</genere>
+			<genere>Drama</genere>
+			<genere>Historia</genere>
+		</generes>
+		<durada unitat="hores">3</durada>
+		<valoracio notaMaxima="10">8,3</valoracio>
+	</pelicula>
+
+</pelicules>
