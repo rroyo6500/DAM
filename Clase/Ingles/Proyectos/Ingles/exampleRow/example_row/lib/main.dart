@@ -12,122 +12,129 @@ class MainApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
+      debugShowCheckedModeBanner: false,
       home: Scaffold(
         body: Column(
           children: [
+            // AppBar.
             Container(
-              color: Colors.lightGreenAccent,
-              height: 300,
+              width: double.infinity,
+              height: 60,
+              color: Colors.blue,
               child: Row(
-                mainAxisAlignment: MainAxisAlignment.spaceEvenly,
-                crossAxisAlignment: CrossAxisAlignment.start,
+                mainAxisAlignment: MainAxisAlignment.spaceBetween,
                 children: [
-                  Container(
-                    width: 100,
-                    height: 200,
-                    color: Colors.amber,
+                  Padding(
+                    padding: const EdgeInsets.only(left: 15),
+                    child: Text("TicTacToe"),
                   ),
-                  Container(
-                    width: 100,
-                    height: 100,
-                    color: Colors.blue,
+                  Padding(
+                    padding: const EdgeInsets.only(right: 15),
+                    child: Text("User"),
                   ),
-                  Container(
-                    width: 100,
-                    height: 100,
-                    color: Colors.red,
-                  ),
-                  Column(
-                    children: [
-                          Container(
-                        width: 100,
-                        height: 100,
-                        color: Colors.blue,
-                      ),
-                      Container(
-                        width: 100,
-                        height: 100,
-                        color: Colors.red,
-                      ),
-                    ],
-                  )
                 ],
               ),
             ),
-            Container(
-              height: 300,
-              width: double.infinity,
-              child: Center(
-                child: Container(
-                  width: 300,
-                  height: 300,
-                  color: Colors.purple,
-                  child: Row(
-                    children: [
-                      Column(
-                        children: [
-                          Container(
-                            width: 100,
-                            height: 100,
-                            color: Colors.red,
-                          ),
-                          Container(
-                            width: 100,
-                            height: 100,
-                            color: Colors.orange,
-                          ),
-                          Container(
-                            width: 100,
-                            height: 100,
-                            color: Colors.red,
-                          ),
-                        ],
-                      ),
-                      Column(
-                        children: [
-                          Container(
-                            width: 100,
-                            height: 100,
-                            color: Colors.orange,
-                          ),
-                          Container(
-                            width: 100,
-                            height: 100,
-                            color: Colors.red,
-                          ),
-                          Container(
-                            width: 100,
-                            height: 100,
-                            color: Colors.orange,
-                          ),
-                        ],
-                      ),
-                      Column(
-                        children: [
-                          Container(
-                            width: 100,
-                            height: 100,
-                            color: Colors.red,
-                          ),
-                          Container(
-                            width: 100,
-                            height: 100,
-                            color: Colors.orange,
-                          ),
-                          Container(
-                            width: 100,
-                            height: 100,
-                            color: Colors.red,
-                          ),
-                        ],
-                      )
-                    ],
-                  ),
+            SizedBox(
+              height: 50,
+            ),
+            Row(
+              mainAxisAlignment: MainAxisAlignment.center,
+              children: [
+                Text(" Start", style: TextStyle(fontSize: 40, color: Colors.blue ),),
+                Text("  game", style: TextStyle(fontSize: 40, color: Colors.amber ),),
+              ],
+            ),
+            Row(
+              mainAxisAlignment: MainAxisAlignment.center,
+              children: [
+                Container(
+                  height: 10,
+                  width: 200,
+                  color: Colors.amber,
+                ),
+                Container(
+                  height: 10,
+                  width: 200,
+                  color: Colors.blue,
+                ),
+              ],
+            ),
+            SizedBox(
+              height: 50,
+            ),
+            // Grid.
+            Center(
+              child: Container(
+                width: 300,
+                height: 300,
+                color: Colors.red,
+                child: Column(
+                  children: [
+                    Row(
+                      children: [
+                        Container(
+                          width: 100,
+                          height: 100,
+                          color: Colors.amber,
+                        ),
+                        Container(
+                          width: 100,
+                          height: 100,
+                          color: Colors.blue,
+                        ),
+                        Container(
+                          width: 100,
+                          height: 100,
+                          color: Colors.amber,
+                        ),
+                      ],
+                    ),
+                    Row(
+                      children: [
+                        Container(
+                          width: 100,
+                          height: 100,
+                          color: Colors.blue,
+                        ),
+                        Container(
+                          width: 100,
+                          height: 100,
+                          color: Colors.amber,
+                        ),
+                        Container(
+                          width: 100,
+                          height: 100,
+                          color: Colors.blue,
+                        ),
+                      ],
+                    ),
+                    Row(
+                      children: [
+                        Container(
+                          width: 100,
+                          height: 100,
+                          color: Colors.amber,
+                        ),
+                        Container(
+                          width: 100,
+                          height: 100,
+                          color: Colors.blue,
+                        ),
+                        Container(
+                          width: 100,
+                          height: 100,
+                          color: Colors.amber,
+                        ),
+                      ],
+                    ),
+            
+                  ],
                 ),
               ),
             ),
           ],
-        ),
+        )
       ),
     );
   }
