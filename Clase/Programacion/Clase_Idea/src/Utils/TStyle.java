@@ -1,36 +1,32 @@
-package TStyle;
+package Utils;
 
-import java.io.File;
-import java.nio.file.FileSystems;
-import java.util.List;
-
-public interface TStyle {
+public class TStyle {
     // RESET
-    String RESET = "\u001B[0m";
+    static String RESET = "\u001B[0m";
     // TEXT COLORS (foreground)
-    String __BLACK = "\u001B[30m";
-    String __RED = "\u001B[31m";
-    String __GREEN = "\u001B[32m";
-    String __YELLOW = "\u001B[33m";
-    String __BLUE = "\u001B[34m";
-    String __MAGENTA = "\u001B[35m";
-    String __CYAN = "\u001B[36m";
-    String __WHITE = "\u001B[37m";
+    static String __BLACK = "\u001B[30m";
+    static String __RED = "\u001B[31m";
+    static String __GREEN = "\u001B[32m";
+    static String __YELLOW = "\u001B[33m";
+    static String __BLUE = "\u001B[34m";
+    static String __MAGENTA = "\u001B[35m";
+    static String __CYAN = "\u001B[36m";
+    static String __WHITE = "\u001B[37m";
     // BACKGROUND COLORS
-    String __BG_BLACK = "\u001B[40m";
-    String __BG_RED = "\u001B[41m";
-    String __BG_GREEN = "\u001B[42m";
-    String __BG_YELLOW = "\u001B[43m";
-    String __BG_BLUE = "\u001B[44m";
-    String __BG_MAGENTA = "\u001B[45m";
-    String __BG_CYAN = "\u001B[46m";
-    String __BG_WHITE = "\u001B[47m";
+    static String __BG_BLACK = "\u001B[40m";
+    static String __BG_RED = "\u001B[41m";
+    static String __BG_GREEN = "\u001B[42m";
+    static String __BG_YELLOW = "\u001B[43m";
+    static String __BG_BLUE = "\u001B[44m";
+    static String __BG_MAGENTA = "\u001B[45m";
+    static String __BG_CYAN = "\u001B[46m";
+    static String __BG_WHITE = "\u001B[47m";
     // TEXT STYLES
-    String __BOLD = "\u001B[1m";
-    String __ITALIC = "\u001B[3m";
-    String __UNDERLINE = "\u001B[4m";
-    String __REVERSE = "\u001B[7m";
-    String __STRIKETHROUGH = "\u001B[9m";
+    static String __BOLD = "\u001B[1m";
+    static String __ITALIC = "\u001B[3m";
+    static String __UNDERLINE = "\u001B[4m";
+    static String __REVERSE = "\u001B[7m";
+    static String __STRIKETHROUGH = "\u001B[9m";
 
     // text colors
     public static String red(Object msg) {

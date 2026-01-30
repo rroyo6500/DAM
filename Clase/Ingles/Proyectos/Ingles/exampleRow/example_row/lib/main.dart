@@ -41,7 +41,7 @@ class MainApp extends StatelessWidget {
                       padding: const EdgeInsets.only(right: 15),
                       child: Container(
                         decoration: BoxDecoration(
-                          color: Colors.amber,
+                          color: Color.fromARGB(255, 23, 106, 173),
                           borderRadius: BorderRadius.circular(50),
                           border: Border.all(color: Colors.white, width: 2),
                         ),
@@ -143,6 +143,49 @@ class MainApp extends StatelessWidget {
                       ),
                     ],
                   ),
+                ),
+              ),
+              SizedBox(height: 50),
+              Container(
+                width: 400,
+                height: 100,
+                decoration: BoxDecoration(
+                  color: Colors.blue,
+                  borderRadius: BorderRadius.circular(25),
+                ),
+                child: Row(
+                  mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                  children: [
+                    Padding(
+                      padding: const EdgeInsets.only(left: 20.0),
+                      child: Column(
+                        mainAxisAlignment: MainAxisAlignment.center,
+                        children: [
+                          Text(
+                            "Texto",
+                            style: TextStyle(
+                              color: Colors.white,
+                              fontSize: 24,
+                              fontWeight: FontWeight.bold,
+                            ),
+                          ),
+                          Text(
+                            "Texto",
+                            style: TextStyle(
+                              color: Colors.white,
+                              fontSize: 24,
+                              fontWeight: FontWeight.bold,
+                            ),
+                          ),
+                      
+                        ],
+                      ),
+                    ),
+                    Padding(
+                      padding: const EdgeInsets.only(right: 20.0),
+                      child: Icon( Icons.star, color: Colors.white, size: 50),
+                    ),
+                  ],
                 ),
               ),
             ],

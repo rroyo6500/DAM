@@ -1,9 +1,6 @@
-package Ficheros.Explicacion;
-
-import TStyle.TStyle;
+package Ficheros.Ficheros;
 
 import java.io.File;
-import java.util.List;
 
 public class Ficheros1 {
 

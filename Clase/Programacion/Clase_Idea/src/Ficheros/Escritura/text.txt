@@ -1,0 +1,4 @@
+El desenvolupament d'un projecte necessita planificació constantment.
+Inicialment, cal establir objectius clarament, i posteriorment, treballar
+eficientment per assolir-los. Finalment, l'avaluació permet detectar possibles
+millores que es poden aplicar immediatament.

@@ -1,3 +1,4 @@
+
 #include <stdio.h>
 #include <stdlib.h>
 
@@ -15,18 +16,17 @@ int main(int argc, char *argv[]) {
 	int diaF, horaF, minutF, segonF;
 	
 	printf("Numero de telefon: ");
-	scanf("%d", &numTelefon);
+	scanf("%d", &numTelefon);	
 	
 	while(numTelefon != FISEQ) {
 		
 		printf("%d\n", numTelefon);
 		
 		printf("Espai: ");
-		scanf("%c ", &espai);
+		scanf(" %c", &espai);
 		printf("Operador propi: ");
-		scanf("%c ", &operadorPropi);
-		
-		fflush(stdin);
+		scanf(" %c", &operadorPropi);
+		//fflush(stdin);
 		
 		printf("Numero de trucades: ");
 		scanf("%d", &numTrucades);
@@ -38,9 +38,10 @@ int main(int argc, char *argv[]) {
 			printf("Numero de telefon: ");
 			scanf("%d", &numTelefon);
 			printf("Espai: ");
-			scanf("%c ", &espai);
+			scanf(" %c", &espai);
 			printf("Operador trucat: ");
-			scanf("%c ", &operadorTrucat);
+			scanf(" %c", &operadorTrucat);
+			//fflush(stdin);
 			printf("Dia I: ");
 			scanf("%d", &diaI);
 			printf("Hora I: ");
@@ -67,12 +68,12 @@ int main(int argc, char *argv[]) {
 		}
 		
 		if (numTrucadesAltresOperadors > 0) {
-			printf("%f", (float) (tempsTotal) / (float) (numTrucadesAltresOperadors));
+			printf("%f\n", (float) (tempsTotal) / (float) (numTrucadesAltresOperadors));
 		} else {
-			printf("%f", 0.0);
+			printf("%f\n", 0.0);
 		}
 		printf("Numero de telefon: ");
-		scanf("%d", &numTelefon);	
+		scanf("%d", &numTelefon);
 	}
 	
 	return 0;

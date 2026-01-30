@@ -1,4 +1,4 @@
-package FuncionesYClases.Clases.Ex1;
+package Utils;
 
 import java.io.PrintStream;
 import java.nio.charset.StandardCharsets;

@@ -1,5 +1,7 @@
 package FuncionesYClases.Clases.Ex1;
 
+import Utils.Auxiliar;
+
 public class Main {
 
     public static void main(String[] args) {
