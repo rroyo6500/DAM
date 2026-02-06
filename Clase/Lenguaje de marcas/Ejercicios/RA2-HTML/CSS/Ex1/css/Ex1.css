@@ -1,46 +1,113 @@
+:root {
+    --primary-text-color: #ccc;
+    --background-color: #222;
+    --link-color: cyan;
+    --link-hover-color: olivedrab;
+    --link-visited-color: purple;
+    --info-font-size: 12px;
+    --info-font-color: green;
+    --info-font-hover-color: darkorange;
+    --info-font-visited-color: lightpink;
+
+    --font-family: Arial, sans-serif;
+}
+
+.navbar {
+    color: var(--link-color);
+}
+.navbar:hover {
+    color: var(--link-hover-color);
+}
+.navbar:visited {
+    color: var(--link-visited-color);
+}
+
+.fuente_informacion {
+    font-size: var(--info-font-size);
+    color: var(--info-font-color);
+    text-decoration: underline;
+}
+.fuente_informacion:hover {
+    color: var(--info-font-hover-color);
+    text-decoration: overline;
+}
+.fuente_informacion:visited {
+    color: var(--info-font-visited-color);
+}
+
+#explicacion_IA::first-letter {
+    font-size: 200%;
+}
+
 body {
-    background-color: #222;
+    background-color: var(--background-color);
     margin: 30px;
 }
 
 p, h1, h2 {
-    color: #ccc;
-    font-family: Arial;
+    color: var(--primary-text-color);
+    font-family: var(--font-family);
+}
+
+h1 {
+    text-transform: capitalize;
+}
+
+h2 {
+    text-transform: uppercase;
+    letter-spacing: 1px;
 }
 
 p {
-    font-size: 16px;
+    text-align: justify;
 }
 
 ul {
     list-style-type: none;
 }
 
-li a {
-    color: white;
-}
-
 form {
-    color: white;
+    color: var(--primary-text-color);
 }
 
-a {
-    color: aqua;
+@media (width < 600px) {
+    
+    p {
+        font-size: 14px;
+    }
+    h1 {
+        font-size: 28px;
+    }
+    h2 {
+        font-size: 22px;
+    }
+
 }
 
-.fuente_informacion {
-    font-size: 12px;
-    color: green;
-    text-decoration: underline;
-}
-.fuente_informacion:hover {
-    color: darkorange;
-    text-decoration: overline;
-}
-.fuente_informacion:visited {
-    color: lightpink;
+@media (600px <= width < 1280px) {
+    
+    p {
+        font-size: 16px;
+    }
+    h1 {
+        font-size: 32px;
+    }
+    h2 {
+        font-size: 26px;
+    }
+
 }
 
-#explicacion_IA::first-letter {
-    font-size: 200%;
+@media (width > 1280px) {
+    
+    p {
+        font-size: 18px;
+    }
+    h1 {
+        font-size: 40px;
+    }
+    h2 {
+        font-size: 32px;
+    }
+
 }

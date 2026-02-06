@@ -39,16 +39,32 @@ class MainApp extends StatelessWidget {
                     ),
                     Padding(
                       padding: const EdgeInsets.only(right: 15),
-                      child: Container(
-                        decoration: BoxDecoration(
-                          color: Color.fromARGB(255, 23, 106, 173),
-                          borderRadius: BorderRadius.circular(50),
-                          border: Border.all(color: Colors.white, width: 2),
-                        ),
-                        child: Padding(
-                          padding: const EdgeInsets.all(4.0),
-                          child: Icon(Icons.person, color: Colors.white, size: 30),
-                        ),
+                      child: Row(
+                        children: [
+                          Container(
+                            decoration: BoxDecoration(
+                              color: Color.fromARGB(255, 23, 106, 173),
+                              borderRadius: BorderRadius.circular(50),
+                              border: Border.all(color: Colors.white, width: 2),
+                            ),
+                            child: Padding(
+                              padding: const EdgeInsets.all(4.0),
+                              child: Icon(Icons.bike_scooter, color: Colors.white, size: 30),
+                            ),
+                          ),
+                          SizedBox(width: 10),
+                          Container(
+                            decoration: BoxDecoration(
+                              color: Color.fromARGB(255, 23, 106, 173),
+                              borderRadius: BorderRadius.circular(50),
+                              border: Border.all(color: Colors.white, width: 2),
+                            ),
+                            child: Padding(
+                              padding: const EdgeInsets.all(4.0),
+                              child: Icon(Icons.person, color: Colors.white, size: 30),
+                            ),
+                          ),
+                        ],
                       ),
                     ),
                   ],
