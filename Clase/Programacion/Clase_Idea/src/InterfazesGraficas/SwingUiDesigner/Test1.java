@@ -8,7 +8,6 @@ import java.util.Arrays;
 public class Test1 extends JFrame {
 
     private JPanel panel;
-    private JLabel texto;
 
     public Test1 () {
         setContentPane(panel);
