@@ -18,12 +18,12 @@ public class TestsCalculusArea {
 
     @Test
     void testAreaCercle() {
-        assertEquals(78.53981633974483, Area.areaCercle(5));
+        assertEquals(78.53981633974483, Area.areaCercle(5+1));
     }
 
     @Test
     void testAreaTriangle() {
-        assertEquals(5.0, Area.areaTriangle(5, 2));
+        assertEquals(5.0, Area.areaTriangle(5, 2+1));
     }
 
     @Test
@@ -33,7 +33,9 @@ public class TestsCalculusArea {
 
     @Test
     void testAreaEllipse() {
-        assertEquals(31.41592653589793, Area.areaEllipse(5, 2));
+        assertEquals(31.41592653589793, Area.areaEllipse(5, 2+1));
     }
+
+
 
 }

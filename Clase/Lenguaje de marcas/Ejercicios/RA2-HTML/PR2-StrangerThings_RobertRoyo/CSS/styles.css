@@ -1,0 +1,103 @@
+:root {
+    --bg_color: black;
+    --text_color: #ccc;
+}
+
+@font-face {
+    font-family: 'BitcountGridDouble';
+    src: url("../FONTS/BitcountGridDouble-VariableFont_CRSV,ELSH,ELXP,slnt,wght.woff2") format("woff2");
+}
+
+body {
+    background-color: var(--bg_color);
+    color: var(--text_color);
+    font-family: 'BitcountGridDouble', sans-serif;
+    font-size: 20px;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    padding: 20px;
+    text-align: center;
+    animation: title_pageStart 7.5s 2;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+}
+
+div.main-grid {
+    display: grid;
+    max-width: 900px;
+    max-height: 900px;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    gap: 20px;
+}
+
+div.main-grid div.imgs {
+    width: 300px;
+    height: 300px;
+}
+
+div.main-grid div.imgs img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+div.main-grid div.imgs img:hover {
+    animation: imgHover_IN 0.3s ease-in-out forwards;
+}
+
+div.main-grid div.imgs img:not(:hover) {
+    animation: imgHover_OUT 0.3s ease-in-out forwards;
+}
+
+footer {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+/*
+Animations
+*/
+
+@keyframes imgHover_IN {
+    0% {
+        transform: scale(1);
+    }
+
+    100% {
+        transform: scale(1.1);
+    }
+}
+
+@keyframes imgHover_OUT {
+    0% {
+        transform: scale(1.1);
+    }
+
+    100% {
+        transform: scale(1);
+    }
+}
+
+@keyframes title_pageStart {
+    0% {
+        transform: translateX(-1500px);
+    }
+
+    100% {
+        transform: translateX(1500px);
+    }
+}

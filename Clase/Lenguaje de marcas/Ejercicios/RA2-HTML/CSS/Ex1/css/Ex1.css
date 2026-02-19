@@ -70,6 +70,33 @@ form {
     color: var(--primary-text-color);
 }
 
+.nvbar-flexbox {
+    list-style-type: none;
+    display: flex;
+    gap: 5px;
+    justify-content: flex-end;
+}
+
+.article-ia {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.container-ia-articles {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 30px;
+    padding: 20px;
+}
+
+.container-ia-articles article {
+    background-color: #333;
+    border-radius: 5%;
+    padding: 5%;
+}
+
 @media (width < 600px) {
     
     p {

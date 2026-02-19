@@ -25,7 +25,7 @@ public class NumeroOcult extends JFrame {
         setBounds(0, 0, 500, 250);
         setDefaultCloseOperation(EXIT_ON_CLOSE);
         setLocationRelativeTo(null);
-        getContentPane().setBackground(Color.PINK);
+        getContentPane().setBackground(Color.decode("#FFF98A"));
 
         numberLabel = new JLabel("Endevina el numero (1 - 25)");
         numberLabel.setBounds(50, 25, 200, 25);
@@ -37,9 +37,7 @@ public class NumeroOcult extends JFrame {
             @Override
             public void keyPressed(KeyEvent e) {
                 super.keyPressed(e);
-
                 if (e.getKeyCode() == KeyEvent.VK_ENTER) checkNumber();
-
             }
         });
         add(numberField);
@@ -57,10 +55,28 @@ public class NumeroOcult extends JFrame {
     }
 
     public void checkNumber() {
-        if (numberField.getText().isEmpty()) return;
+        if (numberField.getText().isBlank() || numberField.getText().matches(".*[a-zA-Z.]+.*")) {
+            JOptionPane.showMessageDialog(
+                    null,
+                    "Debes introducir un numero valido",
+                    "Error",
+                    JOptionPane.ERROR_MESSAGE
+            );
+            return;
+        }
 
-        int number = Integer.parseInt(numberField.getText());
+        int number = Integer.parseInt(numberField.getText().trim());
         numberField.setText("");
+
+        if (number < 1 || number > 25) {
+            JOptionPane.showMessageDialog(
+                    null,
+                    "El numero debe estar entre 1 y 25",
+                    "Warning",
+                    JOptionPane.WARNING_MESSAGE
+            );
+            return;
+        }
 
         if (number == randomNumber) {
             resultLabel.setForeground(Color.BLACK);

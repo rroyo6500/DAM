@@ -46,7 +46,7 @@ class MainApp extends StatelessWidget {
                     height: size,
                     color: Colors.orange,
                     child: Icon(  
-                      Icons.system_update_alt_outlined,
+                      Icons.present_to_all_outlined,
                       color: Colors.black,
                       size: size * 0.25,
                     ),
@@ -71,7 +71,7 @@ class MainApp extends StatelessWidget {
                     height: size,
                     color: Colors.brown,
                     child: Icon(  
-                      Icons.pentagon,
+                      Icons.hub_rounded,
                       color: Colors.black,
                       size: size * 0.25,
                     ),
@@ -106,7 +106,7 @@ class MainApp extends StatelessWidget {
                     height: size,
                     color: Colors.cyan,
                     child: Icon(  
-                      Icons.account_balance,
+                      Icons.ac_unit,
                       color: Colors.black,
                       size: size * 0.25,
                     ),
