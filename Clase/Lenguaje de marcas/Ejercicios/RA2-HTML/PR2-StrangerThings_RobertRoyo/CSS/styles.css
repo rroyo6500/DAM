@@ -30,7 +30,7 @@ main {
     padding: 20px;
 }
 
-div.main-grid {
+section.main-grid {
     display: grid;
     max-width: 900px;
     max-height: 900px;
@@ -39,23 +39,23 @@ div.main-grid {
     gap: 20px;
 }
 
-div.main-grid div.imgs {
+section.main-grid div.imgs {
     width: 300px;
     height: 300px;
 }
 
-div.main-grid div.imgs img {
+section.main-grid div.imgs img {
     width: 100%;
     height: 100%;
     object-fit: cover;
     border-radius: 10px;
 }
 
-div.main-grid div.imgs img:hover {
+section.main-grid div.imgs img:hover {
     animation: imgHover_IN 0.3s ease-in-out forwards;
 }
 
-div.main-grid div.imgs img:not(:hover) {
+section.main-grid div.imgs img:not(:hover) {
     animation: imgHover_OUT 0.3s ease-in-out forwards;
 }
 
@@ -65,6 +65,21 @@ footer {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+}
+
+/*
+Media Queries
+*/
+
+@media (width <= 1200px) {
+    header img {
+        width: 50%;
+        height: 50%;
+    }
+    
+    footer {
+        font-size: 16px;
+    }
 }
 
 
