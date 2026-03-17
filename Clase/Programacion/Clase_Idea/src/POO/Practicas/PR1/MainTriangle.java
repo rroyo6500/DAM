@@ -4,7 +4,6 @@ import Utils.Auxiliar;
 
 import java.io.PrintStream;
 import java.nio.charset.StandardCharsets;
-import java.util.Scanner;
 
 public class MainTriangle {
 
@@ -24,12 +23,9 @@ public class MainTriangle {
             altura = Auxiliar.inputDouble("Introduce la altura del triangulo nº" + (i+1));
 
             triangle[i] = new Triangle(base, altura);
+            triangle[i].mostrarInfo();
 
             System.out.println("----------------");
-        }
-
-        for (Triangle t : triangle) {
-            t.mostrarInfo();
         }
 
     }
