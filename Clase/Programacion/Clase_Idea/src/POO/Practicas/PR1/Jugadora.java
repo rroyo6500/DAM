@@ -43,15 +43,13 @@ public class Jugadora {
 
     @Override
     public String toString() {
-        return "Jugadora{" +
-                "nom='" + nom + '\'' +
+        return "nom='" + nom + '\'' +
                 ", equip='" + equip + '\'' +
                 ", posicio='" + posicio + '\'' +
                 ", targetes=" + targetes +
                 ", gols=" + gols +
                 ", partits=" + partits +
-                ", extraComunitari=" + extraComunitari +
-                '}';
+                ", extraComunitari=" + extraComunitari;
     }
 
     public String getNom() {

@@ -40,22 +40,18 @@ public class Animal {
     
     public String EstaEnPerill() {
         if (this.numeroExemplars < 8000) {
-            return "El " + this.nomCientific + " est� en perill d'extinci�.";
+            return "El " + this.nomCientific + " està en perill d’extinció.";
         } else {
-            return "El " + this.nomCientific + " no est� en perill d'extinci�.";
+            return "El " + this.nomCientific + " no està en perill d’extinció.";
         }
     }
 
     @Override
     public String toString() {
-        return "Animal{" +
-                "especie='" + especie + '\'' +
-                ", raza='" + raza + '\'' +
-                ", nomCientific='" + nomCientific + '\'' +
-                ", habitat='" + habitat + '\'' +
-                ", alimentacio='" + alimentacio + '\'' +
-                ", numeroExemplars=" + numeroExemplars +
-                '}';
+        return "Especie: " + especie + " [ NomCientific: " + nomCientific + " ]" +
+                "\n\tRaza: " + raza + ", Habitat: " + habitat +
+                "\n\tNumero exemplars: " + numeroExemplars +
+                "\n\tAlimentacio: " + alimentacio;
     }
 
     public String getEspecie() {

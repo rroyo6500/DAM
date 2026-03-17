@@ -42,15 +42,8 @@ public class Estudiant {
 
     @Override
     public String toString() {
-        return "Estudiant{" +
-                "dni='" + dni + '\'' +
-                ", nom='" + nom + '\'' +
-                ", cognoms='" + cognoms + '\'' +
-                ", dataNaix='" + dataNaix + '\'' +
-                ", grup='" + grup + '\'' +
-                ", curs=" + curs +
-                ", horesFCT=" + horesFCT +
-                '}';
+        return "Nombre: " + this.nom + " " + this.cognoms + " [DNI: " + this.dni + ", Data de naixement: '" + this.dataNaix + "']" +
+                "\n\tCurso: " + this.consultarGrup() + "\n\tHores FCT: " + this.horesFCT;
     }
 
     public String getDni() {

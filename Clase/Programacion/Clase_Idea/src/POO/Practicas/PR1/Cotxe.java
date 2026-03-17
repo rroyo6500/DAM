@@ -52,15 +52,10 @@ public class Cotxe {
 
     @Override
     public String toString() {
-        return "Cotxe{" +
-                "marca='" + marca + '\'' +
-                ", model='" + model + '\'' +
-                ", matricula='" + matricula + '\'' +
-                ", quilometratge=" + quilometratge +
-                ", anyMatriculacio=" + anyMatriculacio +
-                ", cavalls=" + cavalls +
-                ", dniPropietari='" + dniPropietari + '\'' +
-                '}';
+
+        return marca + " " + model + " " + anyMatriculacio + " [ " + matricula + " ]" +
+                "\n\tQuilometratge: " + quilometratge + "\tCavalls: " + cavalls +
+                "\n\tDNI Propietari: " + dniPropietari;
     }
 
     public String getMarca() {
