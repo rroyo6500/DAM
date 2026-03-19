@@ -29,5 +29,3 @@ public class CalcularImportTrucada {
         return importTotalIVA;
     }
 }
-
-<
