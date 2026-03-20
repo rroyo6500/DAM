@@ -2,30 +2,37 @@ package Optimizacion;
 
 public class CalcularImportTrucada {
 
+    private static final double TARIFA1 = 0.04;
+    private static final double TARIFA2 = 0.07;
+    private static final double TARIFA3 = 0.17;
+    private static final double IVA = 0.21;
+
     public static void main(String[] args) {
         calculaImportFactura(23, 28, 17);
     }
 
-    public static double calculaImportFactura(int minTarifa1, int minTarifa2, int minTarifa3) {
+    public static double calculaImportFactura(int min1, int min2, int min3) {
 
-        double importTarifa1 = minTarifa1 * 0.04;
-        System.out.println("El número de minuts de tarifa 1 és:" + minTarifa1);
-        System.out.println("El preu total per a tarifa 1 (sense IVA) és:" + importTarifa1 + "€");
+        double total = 0;
 
-        double importTarifa2 = minTarifa2 * 0.07;
-        System.out.println("El número de minuts de tarifa 2 és:" + minTarifa2);
-        System.out.println("El preu total per a tarifa 2 (sense IVA) és:" + importTarifa2 + "€");
+        total += calcularTarifa("Tarifa 1", min1, TARIFA1);
+        total += calcularTarifa("Tarifa 2", min2, TARIFA2);
+        total += calcularTarifa("Tarifa 3", min3, TARIFA3);
 
-        double importTarifa3 = minTarifa3 * 0.17;
-        System.out.println("El número de minuts de tarifa 3 és:" + minTarifa3);
-        System.out.println("El preu total per a tarifa 3 (sense IVA) és:" + importTarifa3 + "€");
+        System.out.println("Preu total (sense IVA): " + total + "€");
 
-        double importTotal = minTarifa1 * 0.04 + minTarifa2 * 0.07 + minTarifa3 * 0.17;
-        System.out.println("El preu total (sense IVA) és :" + importTotal + "€");
+        double totalIVA = total * (1 + IVA);
+        System.out.println("Preu total (amb IVA): " + totalIVA + "€");
 
-        double importTotalIVA = importTotal + importTotal / 100 * 21;
-        System.out.println("El preu total (amb IVA) és :" + importTotalIVA + "€");
+        return totalIVA;
+    }
 
-        return importTotalIVA;
+    private static double calcularTarifa(String nombre, int minutos, double precioMinuto) {
+        double importe = minutos * precioMinuto;
+
+        System.out.println(nombre + " - Minuts: " + minutos);
+        System.out.println(nombre + " - Import (sense IVA): " + importe + "€");
+
+        return importe;
     }
 }

@@ -1,3 +1,4 @@
+import 'package:auth_application/pages/example_stack.dart';
 import 'package:auth_application/pages/register_page.dart';
 import 'package:flutter/material.dart';
 
@@ -12,7 +13,7 @@ class MainApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return const MaterialApp(
       debugShowCheckedModeBanner: false,
-      home: RegisterPage()
+      home: ExampleStack()
     );
   }
 }

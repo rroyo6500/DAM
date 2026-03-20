@@ -37,6 +37,7 @@ class RegisterPage extends StatelessWidget {
               onTap: () {
                 print("Starting register...");
               },
+              
               child: Container(
                 padding: EdgeInsets.all(10),
                 color: Colors.blue,
