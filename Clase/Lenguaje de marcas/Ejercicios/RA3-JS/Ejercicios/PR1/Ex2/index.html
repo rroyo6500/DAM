@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <main>
+        <div onclick="addBox()" style="background-color: var(--red);"></div>
+    </main>
+
+    <script>
+
+        function getRandomColor() {
+            let red = Math.floor(Math.random() * 256);
+            let green = Math.floor(Math.random() * 256);
+            let blue = Math.floor(Math.random() * 256);
+
+            return `rgb(${red}, ${green}, ${blue})`;
+        }
+
+        const main = document.querySelector('main');
+
+        function addBox() {
+            const newDiv = document.createElement('div');
+            newDiv.style.backgroundColor = getRandomColor();
+            newDiv.onclick = addBox;
+            main.appendChild(newDiv);
+        }
+
+        function clearPage() {
+            main.innerHTML = '<div onclick="addBox()" style="background-color: var(--red);"></div>';
+        }
+
+        document.addEventListener('keydown', (event) => {
+            if (event.key === 'r') {
+                clearPage();
+            }
+        });
+
+    </script>
+
+</body>
+</html>

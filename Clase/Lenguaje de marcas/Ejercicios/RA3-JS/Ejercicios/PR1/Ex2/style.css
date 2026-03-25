@@ -1,0 +1,10 @@
+:root {
+    --red: #ff0000;
+}
+
+div {
+    width: 100px;
+    height: 100px;
+    margin: 50px;
+    display: inline-block;
+}
