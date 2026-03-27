@@ -1,5 +1,9 @@
+import 'dart:ui';
+
+import 'package:auth_application/components/custom_button.dart';
 import 'package:auth_application/components/important_text.dart';
 import 'package:auth_application/components/our_textfield.dart';
+import 'package:auth_application/pages/home_page.dart';
 import 'package:flutter/material.dart';
 
 class RegisterPage extends StatelessWidget {
@@ -11,38 +15,58 @@ class RegisterPage extends StatelessWidget {
       backgroundColor: const Color.fromARGB(255, 29, 59, 83),
 
       body: Center(
-        child: Column(
+        child: Stack(
           children: [
-            Icon(
-              Icons.group_work,
-              size: 140,
-              color: Color.fromARGB(255, 228, 100, 91),
-              shadows: [
-                Shadow(
-                  color: Color.fromARGB(255, 232, 139, 133),
-                  blurRadius: 8,
-                ),
-              ],
+
+            SizedBox.expand(
+              child: Image.asset(
+                "lib/images/background1.jpg",
+                fit: BoxFit.cover,
+              ),
             ),
 
-            ImportantText(contentOfTheText: "Connect app", sizeOfTheText: 36,),
+            BackdropFilter(
+              filter: ImageFilter.blur(sigmaX: 2, sigmaY: 2), 
+              child: Container(color: Color.fromARGB(96, 0, 0, 0),)
+            ),
 
-            ImportantText(contentOfTheText: "The place where people connect", sizeOfTheText: 24,),
+            Column(
+              children: [
+                Icon(
+                  Icons.group_work,
+                  size: 140,
+                  color: Color.fromARGB(255, 228, 100, 91),
+                  shadows: [
+                    Shadow(
+                      color: Color.fromARGB(255, 232, 139, 133),
+                      blurRadius: 8,
+                    ),
+                  ],
+                ),
+            
+                ImportantText(contentOfTheText: "Connect app", sizeOfTheText: 36,),
+            
+                ImportantText(contentOfTheText: "The place where people connect", sizeOfTheText: 24,),
+            
+                OurTextfield(ourHintText: "Type your email...",),
+                OurTextfield(ourHintText: "Choose a password...", ourShowText: true,),
+                OurTextfield(ourHintText: "Confirm your password...", ourShowText: true,),
+            
+                GestureDetector(
+                  onTap: () {
+                    print("Starting register...");
 
-            OurTextfield(ourHintText: "Type your email...",),
-            OurTextfield(ourHintText: "Choose a password...", ourShowText: true,),
-            OurTextfield(ourHintText: "Confirm your password...", ourShowText: true,),
-
-            GestureDetector(
-              onTap: () {
-                print("Starting register...");
-              },
-              
-              child: Container(
-                padding: EdgeInsets.all(10),
-                color: Colors.blue,
-                child: Text("Register"),
-              ),
+                    Navigator.push(
+                      context, 
+                      MaterialPageRoute(builder: (context) {
+                        return HomePage();
+                      })
+                    );
+                  },
+                  
+                  child: CustomButton(width: 200, height: 100),
+                ),
+              ],
             ),
           ],
         ),

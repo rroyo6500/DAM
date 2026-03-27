@@ -1,3 +1,4 @@
+import 'package:auth_application/colors_app.dart';
 import 'package:flutter/material.dart';
 
 class OurTextfield extends StatelessWidget {
@@ -38,7 +39,7 @@ class OurTextfield extends StatelessWidget {
           enabledBorder: OutlineInputBorder(
             borderRadius: BorderRadius.circular(50),
             borderSide: BorderSide(
-              color: Colors.lightBlueAccent,
+              color: ColorsApp.secondaryColorResaltant,
               width: 2,
             ),
           ),
@@ -46,7 +47,7 @@ class OurTextfield extends StatelessWidget {
           focusedBorder: OutlineInputBorder(
             borderRadius: BorderRadius.circular(50),
             borderSide: BorderSide(
-              color: const Color.fromARGB(255, 228, 100, 91),
+              color: ColorsApp.primaryColorSuau,
               width: 3,
             ),
           ),

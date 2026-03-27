@@ -8,9 +8,14 @@ class ExampleStack extends StatelessWidget {
     return Scaffold(
       body: Center(
         child: Stack(
-          alignment: Alignment.center,
+          alignment: AlignmentGeometry.center,
+          fit: StackFit.expand,
           children: [
-            Image.asset("lib/images/background1.jpg"),
+
+            Image.asset(
+              "lib/images/background1.jpg",
+              fit: BoxFit.cover,
+            ),
 
             Container(
               width: 400,
@@ -25,6 +30,7 @@ class ExampleStack extends StatelessWidget {
               height: 200,
               color: Colors.blue,
             ),
+
           ],
         ),
       ) ,
