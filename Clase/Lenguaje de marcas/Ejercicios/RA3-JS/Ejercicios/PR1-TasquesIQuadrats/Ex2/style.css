@@ -5,6 +5,6 @@
 div {
     width: 100px;
     height: 100px;
-    margin: 50px;
+    position: absolute;
     display: inline-block;
 }

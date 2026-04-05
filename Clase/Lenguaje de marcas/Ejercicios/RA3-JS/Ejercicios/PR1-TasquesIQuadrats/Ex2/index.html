@@ -7,10 +7,8 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    
-    <main>
-        <div onclick="addBox()" style="background-color: var(--red);"></div>
-    </main>
+
+    <div onclick="addBox()" style="background-color: var(--red);"></div>
 
     <script>
 
@@ -18,26 +16,30 @@
             let red = Math.floor(Math.random() * 256);
             let green = Math.floor(Math.random() * 256);
             let blue = Math.floor(Math.random() * 256);
-
             return `rgb(${red}, ${green}, ${blue})`;
         }
 
-        const main = document.querySelector('main');
+        const body = document.querySelector('body');
+
+        let margin = 100;
 
         function addBox() {
             const newDiv = document.createElement('div');
             newDiv.style.backgroundColor = getRandomColor();
+            newDiv.style.marginLeft = `${margin}px`;
+            margin += 100;
             newDiv.onclick = addBox;
-            main.appendChild(newDiv);
+            body.appendChild(newDiv);
         }
 
         function clearPage() {
-            main.innerHTML = '<div onclick="addBox()" style="background-color: var(--red);"></div>';
+            body.innerHTML = '<div onclick="addBox()" style="background-color: var(--red);"></div>';
         }
 
         document.addEventListener('keydown', (event) => {
             if (event.key === 'r') {
                 clearPage();
+                margin = 100;
             }
         });
 
