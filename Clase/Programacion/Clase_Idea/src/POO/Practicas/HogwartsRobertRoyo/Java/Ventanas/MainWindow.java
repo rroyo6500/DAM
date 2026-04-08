@@ -28,7 +28,7 @@ public class MainWindow extends JFWindow {
     public MainWindow(int width, int height) {
         super(width, height, "Hogwarts");
         setColor(Color.decode("#CA9E5C"));
-        comboBox = new JFComboBox((int) (width * 0.75), 50);
+        comboBox = new JFComboBox((int) (width * 0.75), 25);
         addChild(
                 new JFCenter(
                         new JFColumn(
