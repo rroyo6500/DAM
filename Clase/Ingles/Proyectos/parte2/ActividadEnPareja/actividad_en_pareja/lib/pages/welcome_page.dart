@@ -7,19 +7,13 @@ class WelcomePage extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      backgroundColor: const Color.fromARGB(255, 232, 139, 133),
-
       body: Stack(
-        alignment: AlignmentGeometry.center,
-      
         children: [
+          SizedBox.expand(child: Image.asset(
+            "lib/images/san-francisco.jpg", 
+            fit: BoxFit.cover
+          )),
           NavigatorBar(),
-          SizedBox.expand(
-            child: Image.asset(
-              "lib/images/sanfrancisco.jpg",
-              fit: BoxFit.cover,
-            ),
-          ),
         ],
       ),
     );
