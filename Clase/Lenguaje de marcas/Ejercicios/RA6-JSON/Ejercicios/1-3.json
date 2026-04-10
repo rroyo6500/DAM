@@ -1,0 +1,10 @@
+{
+    "titol": "The Legend of Zelda",
+    "plataforma": "Nintendo Switch",
+    "any_de_llancament": 2017,
+    "caracteristiques": {
+        "tipus": ["Aventura", "Acció"],
+        "jugadors": 1,
+        "multijugador": false
+    }
+}

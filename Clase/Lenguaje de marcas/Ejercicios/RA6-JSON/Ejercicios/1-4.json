@@ -1,0 +1,19 @@
+{
+    "nom": "Concert de Rock",
+    "data": "2025-07-15",
+    "lloc": "Estadi Olímpic",
+    "assistents": [
+        {
+            "nom": "Joan",
+            "rol": "Organitzador"
+        },
+        {
+            "nom": "Maria",
+            "rol": "Músic"
+        },
+        {
+            "nom": "Pere",
+            "rol": "Tècnic"
+        }
+    ]
+}

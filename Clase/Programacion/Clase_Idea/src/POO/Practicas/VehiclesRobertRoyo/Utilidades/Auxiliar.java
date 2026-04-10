@@ -1,4 +1,4 @@
-package Utils;
+package POO.Practicas.VehiclesRobertRoyo.Utilidades;
 
 import java.io.PrintStream;
 import java.nio.charset.StandardCharsets;
@@ -15,22 +15,29 @@ public class Auxiliar {
 
     public static String inputString(String msg) {
         System.out.print(msg + ": ");
-        return IN.nextLine();
+        String rt = IN.nextLine();
+        return rt;
     }
 
     public static int inputInt(String msg) {
         System.out.print(msg + ": ");
-        return IN.nextInt();
+        int rt = IN.nextInt();
+        IN.nextLine();
+        return rt;
     }
 
     public static double inputDouble(String msg) {
         System.out.print(msg + ": ");
-        return IN.nextDouble();
+        double rt = IN.nextDouble();
+        IN.nextLine();
+        return rt;
     }
 
     public static char inputChar(String msg) {
         System.out.print(msg + ": ");
-        return IN.next().charAt(0);
+        char rt = IN.next().charAt(0);
+        IN.nextLine();
+        return rt;
     }
 
 }

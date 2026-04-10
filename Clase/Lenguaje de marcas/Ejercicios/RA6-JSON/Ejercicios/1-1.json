@@ -1,0 +1,6 @@
+{
+    "nom": "Maria",
+    "edat": 22,
+    "curs": "Enginyeria Informàtica",
+    "assignatures": ["Programació", "Matemàtiques", "Diseny de Software"]
+}

@@ -1,4 +1,4 @@
-package POO.Practicas.VehiclesRobertRoyo.Clases;
+package POO.Practicas.VehiclesRobertRoyo.Clases.ClasesPadre;
 
 public class Vehiculo {
 
@@ -39,11 +39,6 @@ public class Vehiculo {
 
     @Override
     public String toString() {
-        return "Vehiculo{" +
-                "marca='" + marca + '\'' +
-                ", modelo='" + modelo + '\'' +
-                ", color='" + color + '\'' +
-                ", velocidad=" + velocidad +
-                '}';
+        return String.format("%s %s %s %d km/h", marca, modelo, color, velocidad);
     }
 }

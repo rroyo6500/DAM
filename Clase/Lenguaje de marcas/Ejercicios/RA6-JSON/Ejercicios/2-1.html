@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+
+
+    <script>
+
+        const json1 = {
+            "nom": "Maria",
+            "edat": 22,
+            "curs": "Enginyeria Informàtica",
+            "assignatures": ["Programació", "Matemàtiques", "Diseny de Software"]
+        };
+        const json2 = {
+            "titol": "El Senyor dels Anells",
+            "autor": "J.R.R. Tolkin",
+            "anyPublicacio": 1954,
+            "generes": ["Fantasia", "Aventura"]
+        };
+        const json3 = {
+            "titol": "The Legend of Zelda",
+            "plataforma": "Nintendo Switch",
+            "any_de_llancament": 2017,
+            "caracteristiques": {
+                "tipus": ["Aventura", "Acció"],
+                "jugadors": 1,
+                "multijugador": false
+            }
+        };
+        const json4 = {
+            "nom": "Concert de Rock",
+            "data": "2025-07-15",
+            "lloc": "Estadi Olímpic",
+            "assistents": [
+                {
+                    "nom": "Joan",
+                    "rol": "Organitzador"
+                },
+                {
+                    "nom": "Maria",
+                    "rol": "Músic"
+                },
+                {
+                    "nom": "Pere",
+                    "rol": "Tècnic"
+                }
+            ]
+        }
+
+        document.write(`
+            <pre>${JSON.stringify(json1, null, 4)}</pre>
+            <pre>${JSON.stringify(json2, null, 4)}</pre>
+            <pre>${JSON.stringify(json3, null, 4)}</pre>
+            <pre>${JSON.stringify(json4, null, 4)}</pre>
+        `);
+
+    </script>
+
+</body>
+
+</html>
