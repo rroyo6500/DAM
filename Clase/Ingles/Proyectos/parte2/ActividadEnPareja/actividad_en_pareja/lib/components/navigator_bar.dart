@@ -1,3 +1,4 @@
+import 'package:actividad_en_pareja/pages/information_page.dart';
 import 'package:actividad_en_pareja/pages/welcome_page.dart';
 import 'package:flutter/material.dart';
 
@@ -37,6 +38,15 @@ class NavigatorBar extends StatelessWidget {
                 ),
                 SizedBox(width: 20),
                 GestureDetector(
+                  onTap: () {
+                    Navigator.push(
+                      context, 
+                      MaterialPageRoute(builder: (context) {
+                        return InformationPage();
+                      })
+                    );
+                  },
+
                   child: Text('Information', style: TextStyle(color: Colors.white)),
                 ),
               ],
