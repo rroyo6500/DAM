@@ -18,7 +18,14 @@ class NavigatorBar extends StatelessWidget {
         children: [
           Padding(
             padding: const EdgeInsets.all((25.0)),
-            child: Icon(Icons.ac_unit_outlined, color: Colors.white),
+            child: Text(
+              "San Francisco",
+              style: TextStyle(
+                color: Colors.white,
+                fontSize: 30,
+                fontWeight: FontWeight.bold,
+              ),
+            ),
           ),
           Padding(
             padding: const EdgeInsets.all(25.0),
@@ -27,33 +34,51 @@ class NavigatorBar extends StatelessWidget {
                 GestureDetector(
                   onTap: () {
                     Navigator.push(
-                      context, 
-                      MaterialPageRoute(builder: (context) {
-                        return WelcomePage();
-                      })
+                      context,
+                      MaterialPageRoute(
+                        builder: (context) {
+                          return WelcomePage();
+                        },
+                      ),
                     );
                   },
-                  
-                  child: Text('Welcome Page', style: TextStyle(color: Colors.white)),
+
+                  child: Text(
+                    'Welcome Page',
+                    style: TextStyle(
+                      color: Colors.white,
+                      fontSize: 15,
+                      fontWeight: FontWeight.bold,
+                    ),
+                  ),
                 ),
                 SizedBox(width: 20),
                 GestureDetector(
                   onTap: () {
                     Navigator.push(
-                      context, 
-                      MaterialPageRoute(builder: (context) {
-                        return InformationPage();
-                      })
+                      context,
+                      MaterialPageRoute(
+                        builder: (context) {
+                          return InformationPage();
+                        },
+                      ),
                     );
                   },
 
-                  child: Text('Information', style: TextStyle(color: Colors.white)),
+                  child: Text(
+                    'Information',
+                    style: TextStyle(
+                      color: Colors.white,
+                      fontSize: 15,
+                      fontWeight: FontWeight.bold,
+                    ),
+                  ),
                 ),
               ],
             ),
           ),
         ],
-      )
+      ),
     );
   }
 }

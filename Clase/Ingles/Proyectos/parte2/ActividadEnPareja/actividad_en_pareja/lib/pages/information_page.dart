@@ -9,18 +9,31 @@ class InformationPage extends StatelessWidget {
     return Scaffold(
       body: Stack(
         children: [
-          SizedBox.expand(child: Image.asset(
-            "lib/images/san-francisco.jpg", 
-            fit: BoxFit.cover
-          )),
+          SizedBox.expand(
+            child: Image.asset(
+              "lib/images/san-francisco.jpg",
+              fit: BoxFit.cover,
+            ),
+          ),
           SizedBox.expand(
             child: Column(
               children: [
                 NavigatorBar(),
-                
+
+                SizedBox(height: 50),
+                Container(
+                  padding: EdgeInsets.all(20),
+                  decoration: BoxDecoration(
+                    color: Colors.white,
+                    border: Border.all(color: Colors.black, width: 2),
+                    borderRadius: BorderRadius.circular(50),
+                  ),
+                  width: MediaQuery.widthOf(context) * 0.8,
+                  height: 400,
+                ),
               ],
             ),
-          )
+          ),
         ],
       ),
     );
