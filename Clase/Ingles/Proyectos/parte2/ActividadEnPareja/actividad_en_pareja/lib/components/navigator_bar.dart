@@ -33,11 +33,11 @@ class NavigatorBar extends StatelessWidget {
                     );
                   },
                   
-                  child: Text('Profile', style: TextStyle(color: Colors.white)),
+                  child: Text('Welcome Page', style: TextStyle(color: Colors.white)),
                 ),
                 SizedBox(width: 20),
                 GestureDetector(
-                  child: Text('Settings', style: TextStyle(color: Colors.white)),
+                  child: Text('Information', style: TextStyle(color: Colors.white)),
                 ),
               ],
             ),

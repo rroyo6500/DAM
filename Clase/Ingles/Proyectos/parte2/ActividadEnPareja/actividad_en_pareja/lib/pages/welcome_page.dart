@@ -13,7 +13,14 @@ class WelcomePage extends StatelessWidget {
             "lib/images/san-francisco.jpg", 
             fit: BoxFit.cover
           )),
-          NavigatorBar(),
+          SizedBox.expand(
+            child: Column(
+              children: [
+                NavigatorBar(),
+                
+              ],
+            ),
+          )
         ],
       ),
     );
