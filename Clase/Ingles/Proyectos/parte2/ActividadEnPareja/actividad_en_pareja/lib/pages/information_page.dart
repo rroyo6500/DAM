@@ -27,22 +27,19 @@ class InformationPage extends StatelessWidget {
                   children: [
                     NavigatorBar(),
 
-                    SizedBox(height: 50),
-
-
-                    Container(
-                      padding: EdgeInsets.all(20),
-                      decoration: BoxDecoration(
-                        color: Colors.white,
-                        border: Border.all(color: Colors.black, width: 2),
-                        borderRadius: BorderRadius.circular(50),
+                    Padding(
+                      padding: const EdgeInsets.all(50),
+                      child: Container(
+                        padding: EdgeInsets.all(20),
+                        decoration: BoxDecoration(
+                          color: Colors.white,
+                          border: Border.all(color: Colors.black, width: 2),
+                          borderRadius: BorderRadius.circular(50),
+                        ),
+                        width: MediaQuery.widthOf(context) * 0.95,
+                        height: pageWidth,
                       ),
-                      width: MediaQuery.widthOf(context) * 0.95,
-                      height: pageWidth,
                     ),
-
-
-                    SizedBox(height: 50),
                   ],
                 ),
               ),
