@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+
+    <h1>Productes</h1>
+    <ul id="lista" style="list-style-type: none; padding: 0;">
+
+    </ul>
+    
+    <script>
+
+        const lista = document.getElementById("lista");
+
+        const jsonProductes = `[
+            { "id": 1, "nom": "Ratolí", "preu": 25 },
+            { "id": 2, "nom": "Teclat mecànic", "preu": 85 },
+            { "id": 3, "nom": "Estora de taula", "preu": 15 },
+            { "id": 4, "nom": "Monitor", "preu": 210 }
+        ]`;
+
+        const productes = JSON.parse(jsonProductes);
+
+        productes.forEach(producte => {
+            lista.innerHTML += `<li> ${producte.nom} <strong>[${producte.preu} €]</strong><li>`;
+        });
+
+
+    </script>
+
+</body>
+
+</html>
