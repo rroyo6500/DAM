@@ -38,6 +38,23 @@ class InformationPage extends StatelessWidget {
                         ),
                         width: MediaQuery.widthOf(context) * 0.95,
                         height: pageWidth,
+
+                        child: Padding(
+                          padding: const EdgeInsets.all(25.0),
+                          child: Column(
+                            mainAxisAlignment: MainAxisAlignment.start,
+                            crossAxisAlignment: CrossAxisAlignment.start,
+                            children: [
+                              Text(
+                                "Empleos de desarrollo de software",
+                                style: TextStyle(
+                                  fontSize: 40,
+                                  fontWeight: FontWeight.bold,
+                                ),
+                              ),
+                            ],
+                          ),
+                        ),
                       ),
                     ),
                   ],
