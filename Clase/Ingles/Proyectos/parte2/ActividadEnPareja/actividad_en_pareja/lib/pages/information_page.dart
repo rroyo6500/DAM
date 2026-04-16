@@ -16,22 +16,26 @@ class InformationPage extends StatelessWidget {
             ),
           ),
           SizedBox.expand(
-            child: Column(
-              children: [
-                NavigatorBar(),
+            child: SingleChildScrollView(
+              child: Column(
+                children: [
+                  NavigatorBar(),
 
-                SizedBox(height: 50),
-                Container(
-                  padding: EdgeInsets.all(20),
-                  decoration: BoxDecoration(
-                    color: Colors.white,
-                    border: Border.all(color: Colors.black, width: 2),
-                    borderRadius: BorderRadius.circular(50),
+                  SizedBox(height: 50),
+                  Container(
+                    padding: EdgeInsets.all(20),
+                    decoration: BoxDecoration(
+                      color: Colors.white,
+                      border: Border.all(color: Colors.black, width: 2),
+                      borderRadius: BorderRadius.circular(50),
+                    ),
+                    width: MediaQuery.widthOf(context) * 0.8,
+                    height: 400,
                   ),
-                  width: MediaQuery.widthOf(context) * 0.8,
-                  height: 400,
-                ),
-              ],
+
+                  SizedBox(height: 50),
+                ],
+              ),
             ),
           ),
         ],
