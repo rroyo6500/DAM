@@ -1,4 +1,6 @@
+import 'package:actividad_en_pareja/components/data_information.dart';
 import 'package:actividad_en_pareja/components/navigator_bar.dart';
+import 'package:actividad_en_pareja/components/section_separator.dart';
 import 'package:flutter/material.dart';
 
 class InformationPage extends StatelessWidget {
@@ -45,13 +47,22 @@ class InformationPage extends StatelessWidget {
                             mainAxisAlignment: MainAxisAlignment.start,
                             crossAxisAlignment: CrossAxisAlignment.start,
                             children: [
-                              Text(
-                                "Empleos de desarrollo de software",
-                                style: TextStyle(
-                                  fontSize: 40,
-                                  fontWeight: FontWeight.bold,
-                                ),
+                              DataInformation(
+                                padding: 10,
+                                height: 400,
+                                title: "Software Development Jobs",
+                                children: [
+                                  Text(
+                                    "San Francisco is one of the world’s main tech hubs. Common roles include:",
+                                    style: TextStyle(
+                                      fontSize: 14,
+                                      fontWeight: FontWeight.bold,
+                                    ),
+                                  ),
+                                ],
                               ),
+
+                              SectionSeparator(),
                             ],
                           ),
                         ),
