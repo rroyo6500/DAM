@@ -14,12 +14,17 @@ class WelcomePage extends StatelessWidget {
             fit: BoxFit.cover
           )),
           SizedBox.expand(
-            child: SingleChildScrollView(
-              child: Column(
-                children: [
-                  NavigatorBar(),
-                  
-                ],
+            child: Scrollbar(
+              thumbVisibility: false,
+              thickness: 8.0,
+              radius: Radius.circular(10),
+              child: SingleChildScrollView(
+                child: Column(
+                  children: [
+                    NavigatorBar(),
+                    
+                  ],
+                ),
               ),
             ),
           )
