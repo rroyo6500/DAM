@@ -4,6 +4,8 @@ import 'package:flutter/material.dart';
 class InformationPage extends StatelessWidget {
   const InformationPage({super.key});
 
+  final pageWidth = 1000.0;
+
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -26,6 +28,8 @@ class InformationPage extends StatelessWidget {
                     NavigatorBar(),
 
                     SizedBox(height: 50),
+
+
                     Container(
                       padding: EdgeInsets.all(20),
                       decoration: BoxDecoration(
@@ -33,9 +37,12 @@ class InformationPage extends StatelessWidget {
                         border: Border.all(color: Colors.black, width: 2),
                         borderRadius: BorderRadius.circular(50),
                       ),
-                      width: MediaQuery.widthOf(context) * 0.8,
-                      height: 40000,
+                      width: MediaQuery.widthOf(context) * 0.95,
+                      height: pageWidth,
                     ),
+
+
+                    SizedBox(height: 50),
                   ],
                 ),
               ),
