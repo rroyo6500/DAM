@@ -6,8 +6,6 @@ import 'package:flutter/material.dart';
 class InformationPage extends StatelessWidget {
   const InformationPage({super.key});
 
-  final pageWidth = 1000.0;
-
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -39,7 +37,6 @@ class InformationPage extends StatelessWidget {
                           borderRadius: BorderRadius.circular(50),
                         ),
                         width: MediaQuery.widthOf(context) * 0.95,
-                        height: pageWidth,
 
                         child: Padding(
                           padding: const EdgeInsets.all(25.0),
