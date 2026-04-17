@@ -1,4 +1,4 @@
-package POO.Ejercicios.Herencia.H3;
+package POO.Ejercicios.Herencia.H3_H5;
 
 public abstract class Persona {
 
