@@ -11,36 +11,39 @@ class DataInformation extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return Column(
-      mainAxisAlignment: MainAxisAlignment.start,
-      crossAxisAlignment: CrossAxisAlignment.start,
-      children: [
-        Text(
-          title,
-          style: TextStyle(fontSize: 38, fontWeight: FontWeight.bold),
-        ),
-
-        Padding(
-          padding: EdgeInsets.only(bottom: 10 + padding),
-          child: Container(
-            width: MediaQuery.widthOf(context) * 0.9,
-            height: height,
-            decoration: BoxDecoration(
-              color: Colors.grey[300],
-              border: Border.all(color: Colors.black, width: 2),
-              borderRadius: BorderRadius.circular(height / 8),
-            ),
-            child: Padding(
-              padding: EdgeInsets.all(20.0),
-              child: Column(
-                mainAxisAlignment: MainAxisAlignment.start,
-                crossAxisAlignment: CrossAxisAlignment.start,
-                children: children,
+    return Padding(
+      padding: EdgeInsets.only(top: padding, bottom: padding),
+      child: Column(
+        mainAxisAlignment: MainAxisAlignment.start,
+        crossAxisAlignment: CrossAxisAlignment.start,
+        children: [
+          Text(
+            title,
+            style: TextStyle(fontSize: 38, fontWeight: FontWeight.bold),
+          ),
+      
+          Padding(
+            padding: EdgeInsets.only(bottom: 10),
+            child: Container(
+              width: MediaQuery.widthOf(context) * 0.9,
+              height: height,
+              decoration: BoxDecoration(
+                color: Colors.grey[300],
+                border: Border.all(color: Colors.black, width: 2),
+                borderRadius: BorderRadius.circular(height / 8),
+              ),
+              child: Padding(
+                padding: EdgeInsets.all(20.0),
+                child: Column(
+                  mainAxisAlignment: MainAxisAlignment.start,
+                  crossAxisAlignment: CrossAxisAlignment.start,
+                  children: children,
+                ),
               ),
             ),
           ),
-        ),
-      ],
+        ],
+      ),
     );
   }
 }

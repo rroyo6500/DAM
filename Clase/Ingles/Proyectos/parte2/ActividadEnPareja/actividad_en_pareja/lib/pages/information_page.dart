@@ -49,20 +49,45 @@ class InformationPage extends StatelessWidget {
                             children: [
                               DataInformation(
                                 padding: 10,
-                                height: 400,
+                                height: 225,
                                 title: "Software Development Jobs",
                                 children: [
                                   Text(
                                     "San Francisco is one of the world’s main tech hubs. Common roles include:",
                                     style: TextStyle(
-                                      fontSize: 14,
-                                      fontWeight: FontWeight.bold,
+                                      fontWeight: FontWeight.bold
+                                    ),
+                                  ),
+
+                                  SizedBox(height: 10),
+
+                                  Text(
+                                    "\t- Software Engineer (Frontend, Backend, Full Stack)\n"
+                                    "\t- Data Scientist / Machine Learning Engineer\n"
+                                    "\t- DevOps Engineer\n"
+                                    "\t- Mobile App Developer (iOS/Android)\n"
+                                    "\t- Product Engineer",
+                                    style: TextStyle(
+                                      fontWeight: FontWeight.bold
+                                    ),
+                                  ),
+
+                                  SizedBox(height: 10),
+
+                                  Text(
+                                    "Major companies like Google, Meta, and Salesforce operate in the area, alongside many startups.",
+                                    style: TextStyle(
+                                      fontWeight: FontWeight.bold
                                     ),
                                   ),
                                 ],
                               ),
-
                               SectionSeparator(),
+                              DataInformation(
+                                padding: 10, 
+                                height: 400, 
+                                title: "Differences in the English spoken"
+                              )
                             ],
                           ),
                         ),
