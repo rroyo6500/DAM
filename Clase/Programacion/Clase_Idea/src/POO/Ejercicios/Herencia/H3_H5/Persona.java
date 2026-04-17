@@ -1,6 +1,6 @@
-package POO.Ejercicios.Herencia.H3;
+package POO.Ejercicios.Herencia.H3_H5;
 
-public class Persona {
+public abstract class Persona {
 
     protected final int idPersona;
     protected String nombre;
@@ -14,13 +14,9 @@ public class Persona {
         this.edad = edad;
     }
 
-    public void viajar(){
-        System.out.println("La persona ha viajado");
-    }
+    public abstract void viajar();
 
-    public void partido(){
-        System.out.println("La persona ha asistido a un partido");
-    }
+    public abstract void partido();
 
     public int getIdPersona() {
         return idPersona;
