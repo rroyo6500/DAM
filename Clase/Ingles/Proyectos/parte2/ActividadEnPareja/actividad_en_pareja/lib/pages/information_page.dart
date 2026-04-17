@@ -95,21 +95,37 @@ class InformationPage extends StatelessWidget {
 
                                   Text(
                                     "1. Tech vocabulary\n"
-                                    "\t- “Startup” → a new company\n",
+                                    "\t\t\t\t- “Startup” → a new company\n"
+                                    "\t\t\t\t- “Pitch” → presenting an idea\n"
+                                    "\t\t\t\t- “Scale” → growing a product or business\n\n"
+                                    "2. Multicultural influence\n"
+                                    "\t\t\t\t    Frequent use of words from other languages (especially Spanish and Chinese).\n"
+                                    "\t\t\t\t    Example: “Let’s grab tacos later.\n\n"
+                                    "3. Local expressions\n"
+                                    "\t\t\t\t- “The City” → San Francisco\n"
+                                    "\t\t\t\t- “Bay Area” → the surrounding region\n"
+                                    "\t\t\t\t- “Hell yeah” → enthusiastic agreement\n\n"
+                                    "4. Accent\n"
+                                    "\t\t\t\t    The accent is fairly neutral, making it easier for English learners to understand.\n",
                                     style: TextStyle(
                                       fontWeight: FontWeight.bold
                                     ),
                                   ),
 
-                                  SizedBox(height: 10),
+                                ],
+                              ),
+                              SectionSeparator(),
 
+                              DataInformation(
+                                padding: 10, 
+                                title: "What I like about San Francisco",
+                                children: [
                                   Text(
-                                    "",
+                                    "The mix of technology, nature, and culture\nIconic places like the Golden Gate Bridge\nOpen-minded and creative atmosphere\nStrong connection to global innovation",
                                     style: TextStyle(
                                       fontWeight: FontWeight.bold
-                                    ),
+                                    )
                                   )
-
                                 ],
                               )
                             ],
