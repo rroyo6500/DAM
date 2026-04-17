@@ -49,7 +49,6 @@ class InformationPage extends StatelessWidget {
                             children: [
                               DataInformation(
                                 padding: 10,
-                                height: 225,
                                 title: "Software Development Jobs",
                                 children: [
                                   Text(
@@ -84,9 +83,37 @@ class InformationPage extends StatelessWidget {
                               ),
                               SectionSeparator(),
                               DataInformation(
-                                padding: 10, 
-                                height: 400, 
-                                title: "Differences in the English spoken"
+                                padding: 10,  
+                                title: "Differences in the English spoken",
+                                children: [
+                                  
+                                  Text(
+                                    "English in San Francisco is mostly General American English, but with some unique touches:",
+                                    style: TextStyle(
+                                      fontWeight: FontWeight.bold
+                                    ),
+                                  ),
+
+                                  SizedBox(height: 10),
+
+                                  Text(
+                                    "1. Tech vocabulary\n"
+                                    "\t- “Startup” → a new company\n",
+                                    style: TextStyle(
+                                      fontWeight: FontWeight.bold
+                                    ),
+                                  ),
+
+                                  SizedBox(height: 10),
+
+                                  Text(
+                                    "",
+                                    style: TextStyle(
+                                      fontWeight: FontWeight.bold
+                                    ),
+                                  )
+
+                                ],
                               )
                             ],
                           ),
