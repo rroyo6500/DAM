@@ -1,0 +1,38 @@
+[
+    {
+        "nom": "Robert",
+        "edat": 18,
+        "adreça": {
+            "carrer": "Ronda del Guinardó",
+            "codi-postal": "08290"
+        },
+        "moduls-matriculats": [
+            {
+                "nom": "Programació",
+                "hores-totals": 200
+            },
+            {
+                "nom": "BBDD",
+                "hores-totals": 150
+            }
+        ]
+    },
+    {
+        "nom": "Izan",
+        "edat": 18,
+        "adreça": {
+            "carrer": "Carrer de la Plaça",
+            "codi-postal": "08060"
+        },
+        "moduls-matriculats": [
+            {
+                "nom": "Programació",
+                "hores-totals": 200
+            },
+            {
+                "nom": "Sistemes Informàtics",
+                "hores-totals": 100
+            }
+        ]
+    }
+]
