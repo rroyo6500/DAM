@@ -1,0 +1,14 @@
+{
+    "nom": "Restaurante XYZ",
+    "ubicació": "Carrer de la Plaça, 123",
+    "menu": [
+        {
+            "plat": "Truita de patates",
+            "preu": 5.50
+        },
+        {
+            "plat": "Paella Valenciana",
+            "preu": 12.00
+        }
+    ]
+}
