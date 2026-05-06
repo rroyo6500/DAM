@@ -1,0 +1,263 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="format.xsd" type="application/xml" schematypens="http://www.w3.org/2001/XMLSchema"?>
+<tipos_fantasmas 
+
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:noNamespaceSchemaLocation="format.xsd"
+>
+    
+    <fantasma>
+        <tipo>Espiritu</tipo>
+        <descripcion>Los espíritus son los fantasmas más comunes. Son muy poderosos, pero pasivos.</descripcion>
+        <pruebas>
+            <prueba>
+                <nombre tipo="EMF-5"/>
+                <descripcion>Lectura de nivel 5 en el lector de campo electromagnético.</descripcion>
+            </prueba>
+            <prueba>
+                <nombre tipo="Spirit Box"/>
+                <descripcion>Respuesta audible a través de la Spirit Box.</descripcion>
+            </prueba>
+            <prueba>
+                <nombre tipo="Ghost Writing"/>
+                <descripcion>El fantasma escribe o dibuja en el libro.</descripcion>
+            </prueba>
+        </pruebas>
+        <habilidad>El incienso detiene sus ataques por un periodo más largo (180 segundos).</habilidad>
+        <cordura>50</cordura>
+        <velocidad_base unidad="m/s">2</velocidad_base>
+        <velocidad_maxima unidad="m/s">3</velocidad_maxima>
+        <velocidad_minima unidad="m/s">1</velocidad_minima>
+        <imagen>https://static.wikia.nocookie.net/phasmophobia/images/c/c1/Spirit_Discovered.jpg/revision/latest?cb=20231115114542</imagen>
+    </fantasma>
+
+    <fantasma>
+        <tipo>Espectro</tipo>
+        <descripcion>Uno de los fantasmas más peligrosos. Es el único que puede volar y atravesar paredes.</descripcion>
+        <pruebas>
+            <prueba>
+                <nombre tipo="EMF-5"/>
+                <descripcion>Lectura de nivel 5 en el lector de campo electromagnético.</descripcion>
+            </prueba>
+            <prueba>
+                <nombre tipo="Spirit Box"/>
+                <descripcion>Respuesta audible a través de la Spirit Box.</descripcion>
+            </prueba>
+            <prueba>
+                <nombre tipo="D.O.T.S."/>
+                <descripcion>Silueta visible pasando por la luz del proyector.</descripcion>
+            </prueba>
+        </pruebas>
+        <habilidad>Nunca deja huellas físicas en la sal al caminar sobre ella.</habilidad>
+        <cordura>50</cordura>
+        <velocidad_base unidad="m/s">2</velocidad_base>
+        <velocidad_maxima unidad="m/s">3</velocidad_maxima>
+        <velocidad_minima unidad="m/s">1</velocidad_minima>
+        <imagen>https://static.wikia.nocookie.net/phasmophobia/images/c/c1/Wraith_Discovered.jpg/revision/latest?cb=20231115114549</imagen>
+    </fantasma>
+
+    <fantasma>
+        <tipo>Ente</tipo>
+        <descripcion>Un fantasma que puede poseer a los vivos, comúnmente invocado por tablas Ouija.</descripcion>
+        <pruebas>
+            <prueba>
+                <nombre tipo="Spirit Box"/>
+                <descripcion>Respuesta audible a través de la Spirit Box.</descripcion>
+            </prueba>
+            <prueba>
+                <nombre tipo="Fingerprints"/>
+                <descripcion>Marcas visibles con luz UV en puertas o interruptores.</descripcion>
+            </prueba>
+            <prueba>
+                <nombre tipo="D.O.T.S."/>
+                <descripcion>Silueta visible pasando por la luz del proyector.</descripcion>
+            </prueba>
+        </pruebas>
+        <habilidad>Mirarlo directamente reduce la cordura drásticamente.</habilidad>
+        <cordura>50</cordura>
+        <velocidad_base unidad="m/s">2</velocidad_base>
+        <velocidad_maxima unidad="m/s">3</velocidad_maxima>
+        <velocidad_minima unidad="m/s">1</velocidad_minima>
+        <imagen>https://static.wikia.nocookie.net/phasmophobia/images/2/27/Phantom_Discovered.jpg/revision/latest?cb=20231115114535</imagen>
+    </fantasma>
+
+    <fantasma>
+        <tipo>Poltergeist</tipo>
+        <descripcion>Conocido por manipular objetos a su alrededor para infundir miedo.</descripcion>
+        <pruebas>
+            <prueba>
+                <nombre tipo="Spirit Box"/>
+                <descripcion>Respuesta audible a través de la Spirit Box.</descripcion>
+            </prueba>
+            <prueba>
+                <nombre tipo="Fingerprints"/>
+                <descripcion>Marcas visibles con luz UV.</descripcion>
+            </prueba>
+            <prueba>
+                <nombre tipo="Ghost Writing"/>
+                <descripcion>El fantasma escribe en el libro.</descripcion>
+            </prueba>
+        </pruebas>
+        <habilidad>Puede lanzar múltiples objetos a la vez con gran fuerza.</habilidad>
+        <cordura>50</cordura>
+        <velocidad_base unidad="m/s">2</velocidad_base>
+        <velocidad_maxima unidad="m/s">3</velocidad_maxima>
+        <velocidad_minima unidad="m/s">1</velocidad_minima>
+        <imagen>https://static.wikia.nocookie.net/phasmophobia/images/1/10/Poltergeist_Discovered.jpg/revision/latest?cb=20231115114536</imagen>
+    </fantasma>
+
+    <fantasma>
+        <tipo>Banshee</tipo>
+        <descripcion>Un cazador natural que acecha a su presa antes de atacar.</descripcion>
+        <pruebas>
+            <prueba>
+                <nombre tipo="Fingerprints"/>
+                <descripcion>Marcas visibles con luz UV.</descripcion>
+            </prueba>
+            <prueba>
+                <nombre tipo="Ghost Orbs"/>
+                <descripcion>Pequeñas luces flotantes visibles en cámara de video.</descripcion>
+            </prueba>
+            <prueba>
+                <nombre tipo="D.O.T.S."/>
+                <descripcion>Silueta visible pasando por la luz del proyector.</descripcion>
+            </prueba>
+        </pruebas>
+        <habilidad>Grito parabólico único detectable con el micrófono parabólico.</habilidad>
+        <cordura>50</cordura>
+        <velocidad_base unidad="m/s">2</velocidad_base>
+        <velocidad_maxima unidad="m/s">3</velocidad_maxima>
+        <velocidad_minima unidad="m/s">1</velocidad_minima>
+        <imagen>https://static.wikia.nocookie.net/phasmophobia/images/2/26/Banshee_Discovered.jpg/revision/latest?cb=20231115114509</imagen>
+    </fantasma>
+
+    <fantasma>
+        <tipo>Revenant</tipo>
+        <descripcion>Un fantasma lento pero violento que ataca indiscriminadamente.</descripcion>
+        <pruebas>
+            <prueba>
+                <nombre tipo="Ghost Orbs"/>
+                <descripcion>Luces flotantes en visión nocturna.</descripcion>
+            </prueba>
+            <prueba>
+                <nombre tipo="Ghost Writing"/>
+                <descripcion>El fantasma escribe en el libro.</descripcion>
+            </prueba>
+            <prueba>
+                <nombre tipo="Freezing Temperature"/>
+                <descripcion>El termómetro marca bajo cero o se ve el aliento.</descripcion>
+            </prueba>
+        </pruebas>
+        <habilidad>Se mueve extremadamente rápido si ve a su presa durante la caza.</habilidad>
+        <cordura>50</cordura>
+        <velocidad_base unidad="m/s">1</velocidad_base>
+        <velocidad_maxima unidad="m/s">4</velocidad_maxima>
+        <velocidad_minima unidad="m/s">1</velocidad_minima>
+        <imagen>https://static.wikia.nocookie.net/phasmophobia/images/1/16/Revenant_Discovered.jpg/revision/latest?cb=20231115114538</imagen>
+    </fantasma>
+
+    <fantasma>
+        <tipo>Demonio</tipo>
+        <descripcion>Uno de los peores fantasmas que te puedes encontrar. Ataca sin razón.</descripcion>
+        <pruebas>
+            <prueba>
+                <nombre tipo="Fingerprints"/>
+                <descripcion>Marcas visibles con luz UV.</descripcion>
+            </prueba>
+            <prueba>
+                <nombre tipo="Ghost Writing"/>
+                <descripcion>El fantasma escribe en el libro.</descripcion>
+            </prueba>
+            <prueba>
+                <nombre tipo="Freezing Temperature"/>
+                <descripcion>El aire se congela cerca de él.</descripcion>
+            </prueba>
+        </pruebas>
+        <habilidad>Puede iniciar cacerías con niveles altos de cordura (70% o más).</habilidad>
+        <cordura>70</cordura>
+        <velocidad_base unidad="m/s">2</velocidad_base>
+        <velocidad_maxima unidad="m/s">3</velocidad_maxima>
+        <velocidad_minima unidad="m/s">1</velocidad_minima>
+        <imagen>https://static.wikia.nocookie.net/phasmophobia/images/f/f5/Demon_Discovered.jpg/revision/latest?cb=20231115114516</imagen>
+    </fantasma>
+
+    <fantasma>
+        <tipo>El Mmico</tipo>
+        <descripcion>Un fantasma evasivo que copia las habilidades y rasgos de otros.</descripcion>
+        <pruebas>
+            <prueba>
+                <nombre tipo="Spirit Box"/>
+                <descripcion>Respuesta audible a través de la Spirit Box.</descripcion>
+            </prueba>
+            <prueba>
+                <nombre tipo="Fingerprints"/>
+                <descripcion>Marcas visibles con luz UV.</descripcion>
+            </prueba>
+            <prueba>
+                <nombre tipo="Freezing Temperature"/>
+                <descripcion>Temperaturas bajo cero.</descripcion>
+            </prueba>
+            <prueba-especial>
+                <nombre tipo="Ghost Orbs"/>
+                <descripcion>Prueba extra (cuarta prueba) que siempre presenta aunque no sea oficial.</descripcion>
+            </prueba-especial>
+        </pruebas>
+        <habilidad>Puede imitar el comportamiento de cualquier otro tipo de fantasma.</habilidad>
+        <cordura>50</cordura>
+        <velocidad_base unidad="m/s">2</velocidad_base>
+        <velocidad_maxima unidad="m/s">3</velocidad_maxima>
+        <velocidad_minima unidad="m/s">1</velocidad_minima>
+        <imagen>https://static.wikia.nocookie.net/phasmophobia/images/e/e0/The_Mimic_Discovered.jpg/revision/latest?cb=20231115114545</imagen>
+    </fantasma>
+
+    <fantasma>
+        <tipo>Hantu</tipo>
+        <descripcion>Un fantasma raro que prospera en los climas más fríos.</descripcion>
+        <pruebas>
+            <prueba>
+                <nombre tipo="Fingerprints"/>
+                <descripcion>Marcas visibles con luz UV.</descripcion>
+            </prueba>
+            <prueba>
+                <nombre tipo="Ghost Orbs"/>
+                <descripcion>Luces flotantes en cámara.</descripcion>
+            </prueba>
+            <prueba>
+                <nombre tipo="Freezing Temperature"/>
+                <descripcion>Temperaturas bajo cero.</descripcion>
+            </prueba>
+        </pruebas>
+        <habilidad>Se mueve más rápido en habitaciones frías y más lento en las calientes.</habilidad>
+        <cordura>50</cordura>
+        <velocidad_base unidad="m/s">1</velocidad_base>
+        <velocidad_maxima unidad="m/s">3</velocidad_maxima>
+        <velocidad_minima unidad="m/s">1</velocidad_minima>
+        <imagen>https://static.wikia.nocookie.net/phasmophobia/images/e/e0/Hantu_Discovered.jpg/revision/latest?cb=20231115114526</imagen>
+    </fantasma>
+
+    <fantasma>
+        <tipo>Raiju</tipo>
+        <descripcion>Un demonio que se alimenta de la corriente eléctrica.</descripcion>
+        <pruebas>
+            <prueba>
+                <nombre tipo="EMF-5"/>
+                <descripcion>Lectura de nivel 5 en el lector CEM.</descripcion>
+            </prueba>
+            <prueba>
+                <nombre tipo="Ghost Orbs"/>
+                <descripcion>Luces flotantes en cámara.</descripcion>
+            </prueba>
+            <prueba>
+                <nombre tipo="D.O.T.S."/>
+                <descripcion>Silueta visible en la luz D.O.T.S.</descripcion>
+            </prueba>
+        </pruebas>
+        <habilidad>Se vuelve extremadamente rápido cerca de aparatos electrónicos encendidos.</habilidad>
+        <cordura>65</cordura>
+        <velocidad_base unidad="m/s">2</velocidad_base>
+        <velocidad_maxima unidad="m/s">4</velocidad_maxima>
+        <velocidad_minima unidad="m/s">2</velocidad_minima>
+        <imagen>https://static.wikia.nocookie.net/phasmophobia/images/a/aa/Raiju_Discovered.jpg/revision/latest?cb=20231115114537</imagen>
+    </fantasma>
+
+</tipos_fantasmas>

@@ -1,0 +1,129 @@
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+    <xs:element name="tipos_fantasmas">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="fantasma" maxOccurs="unbounded" minOccurs="0">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element name="tipo" type="xs:string"/>
+                            <xs:element name="descripcion" type="xs:string"/>
+                            <xs:element name="pruebas" >
+                                <xs:complexType>
+                                    <xs:sequence>
+                                        <xs:element name="prueba" maxOccurs="3" minOccurs="3">
+                                            <xs:complexType>
+                                                <xs:sequence>
+                                                    <xs:element name="nombre">
+                                                        <xs:complexType>
+                                                            <xs:simpleContent>
+                                                                <xs:extension base="xs:string">
+                                                                    <xs:attribute name="tipo" use="required">
+                                                                        <xs:simpleType>
+                                                                            <xs:restriction base="xs:string">
+                                                                                <xs:enumeration value="EMF-5"/>
+                                                                                <xs:enumeration value="Spirit Box"/>
+                                                                                <xs:enumeration value="Freezing Temperature"/>
+                                                                                <xs:enumeration value="Fingerprints"/>
+                                                                                <xs:enumeration value="Ghost Writing"/>
+                                                                                <xs:enumeration value="Ghost Orbs"/>
+                                                                                <xs:enumeration value="D.O.T.S."/>
+                                                                            </xs:restriction>
+                                                                        </xs:simpleType>
+                                                                    </xs:attribute> 
+                                                                </xs:extension>
+                                                            </xs:simpleContent>
+                                                        </xs:complexType>
+                                                    </xs:element>
+                                                    <xs:element name="descripcion" type="xs:string"/>
+                                                </xs:sequence>
+                                            </xs:complexType>
+                                        </xs:element>
+                                        <xs:element name="prueba-especial" minOccurs="0" maxOccurs="1">
+                                            <xs:complexType>
+                                                <xs:sequence>
+                                                    <xs:element name="nombre">
+                                                        <xs:complexType>
+                                                            <xs:simpleContent>
+                                                                <xs:extension base="xs:string">
+                                                                    <xs:attribute name="tipo" use="required">
+                                                                        <xs:simpleType>
+                                                                            <xs:restriction base="xs:string">
+                                                                                <xs:enumeration value="EMF-5"/>
+                                                                                <xs:enumeration value="Spirit Box"/>
+                                                                                <xs:enumeration value="Freezing Temperature"/>
+                                                                                <xs:enumeration value="Fingerprints"/>
+                                                                                <xs:enumeration value="Ghost Writing"/>
+                                                                                <xs:enumeration value="Ghost Orbs"/>
+                                                                                <xs:enumeration value="D.O.T.S."/>
+                                                                            </xs:restriction>
+                                                                        </xs:simpleType>
+                                                                    </xs:attribute> 
+                                                                </xs:extension>
+                                                            </xs:simpleContent>
+                                                        </xs:complexType>
+                                                    </xs:element>
+                                                    <xs:element name="descripcion" type="xs:string"/>
+                                                </xs:sequence>
+                                            </xs:complexType>
+                                        </xs:element>
+                                    </xs:sequence>
+                                </xs:complexType>
+                            </xs:element>
+                            <xs:element name="habilidad" type="xs:string"/>
+                            <xs:element name="cordura" type="xs:integer"/>
+                            <xs:element name="velocidad_base">
+                                <xs:complexType>
+                                    <xs:simpleContent>
+                                        <xs:extension base="xs:integer">
+                                            <xs:attribute name="unidad" use="required">
+                                                <xs:simpleType>
+                                                    <xs:restriction base="xs:string">
+                                                        <xs:enumeration value="km/h"/>
+                                                        <xs:enumeration value="m/s"/>
+                                                    </xs:restriction>
+                                                </xs:simpleType>
+                                            </xs:attribute> 
+                                        </xs:extension>
+                                    </xs:simpleContent>
+                                </xs:complexType>
+                            </xs:element>
+                            <xs:element name="velocidad_maxima">
+                                <xs:complexType>
+                                    <xs:simpleContent>
+                                        <xs:extension base="xs:integer">
+                                            <xs:attribute name="unidad" use="required">
+                                                <xs:simpleType>
+                                                    <xs:restriction base="xs:string">
+                                                        <xs:enumeration value="km/h"/>
+                                                        <xs:enumeration value="m/s"/>
+                                                    </xs:restriction>
+                                                </xs:simpleType>
+                                            </xs:attribute> 
+                                        </xs:extension>
+                                    </xs:simpleContent>
+                                </xs:complexType>
+                            </xs:element>
+                            <xs:element name="velocidad_minima">
+                                <xs:complexType>
+                                    <xs:simpleContent>
+                                        <xs:extension base="xs:integer">
+                                            <xs:attribute name="unidad" use="required">
+                                                <xs:simpleType>
+                                                    <xs:restriction base="xs:string">
+                                                        <xs:enumeration value="km/h"/>
+                                                        <xs:enumeration value="m/s"/>
+                                                    </xs:restriction>
+                                                </xs:simpleType>
+                                            </xs:attribute> 
+                                        </xs:extension>
+                                    </xs:simpleContent>
+                                </xs:complexType>
+                            </xs:element>
+                            <xs:element name="imagen" type="xs:anyURI"/>
+                        </xs:sequence>
+                    </xs:complexType>
+                </xs:element>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+</xs:schema>

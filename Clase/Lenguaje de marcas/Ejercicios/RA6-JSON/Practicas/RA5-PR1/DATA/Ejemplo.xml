@@ -1,0 +1,315 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<base_dades_anomalies nivell_securitat="OMICRON">
+    
+    <anomalia id="ANM-404">
+        <nom_codi>El Teclat Fantasma</nom_codi>
+        <classe_perill nivell="2">Euclid</classe_perill>
+        <origen>
+            <localitzacio>Oficines abandonades de Netscape, Califòrnia</localitzacio>
+            <data_descobriment>2008-04-12</data_descobriment>
+        </origen>
+        <caracteristiques>
+            <material>Plàstic ABS engroguit</material>
+            <pes unitat="kg">1.2</pes>
+        </caracteristiques>
+        <descripcio>Un teclat mecànic dels anys 90. Quan es connecta a qualsevol port USB, comença a escriure codi autònomament en COBOL per intentar obrir les portes de seguretat de l'edifici. Si algú intenta prémer la tecla 'Suprimir', el teclat emet una descàrrega elèctrica.</descripcio>
+        <mesures_contencio>
+            <regla>Mantenir dins d'una gàbia de Faraday en tot moment.</regla>
+            <regla>No apropar mai cap cable USB tipus C a menys de 5 metres.</regla>
+        </mesures_contencio>
+        <incidents>
+            <incident data="2015-11-03" resolt="si">Va hackejar la màquina de cafè i va obligar els investigadors a beure descafeïnat durant una setmana.</incident>
+        </incidents>
+    </anomalia>
+
+    <anomalia id="ANM-007">
+        <nom_codi>El Router de les Realitats</nom_codi>
+        <classe_perill nivell="5">Keter</classe_perill>
+        <origen>
+            <localitzacio>Soterrani d'un cibercafè a Tòquio</localitzacio>
+            <data_descobriment>2019-09-21</data_descobriment>
+        </origen>
+        <caracteristiques>
+            <material>Titani enfosquit amb 8 antenes</material>
+            <pes unitat="kg">3.5</pes>
+        </caracteristiques>
+        <descripcio>Sembla un router Wi-Fi d'alta gamma. Tanmateix, en lloc de connectar-se a internet, es connecta a l'extranet d'una dimensió paral·lela on els gats dominen la Terra. Les pàgines web que descarrega contenen informació incomprensible basada en miols traduïts.</descripcio>
+        <mesures_contencio>
+            <regla>Canviar la contrasenya WPA3 cada 12 hores.</regla>
+            <regla>Prohibida l'entrada de felins a la sala del servidor.</regla>
+            <regla>Mantenir refredat a -20ºC constants.</regla>
+        </mesures_contencio>
+        <incidents>
+            <incident data="2020-01-14" resolt="no">L'investigador Martínez va intentar veure un vídeo de YouTube a través d'aquesta xarxa i només pot parlar en esgarips des de llavors.</incident>
+            <incident data="2023-05-30" resolt="si">El router va intentar demanar 50 tones de tonyina fresca per Amazon de la nostra dimensió.</incident>
+        </incidents>
+    </anomalia>
+
+    <anomalia id="ANM-808">
+        <nom_codi>El Pendrive de la Procrastinació</nom_codi>
+        <classe_perill nivell="1">Safe</classe_perill>
+        <origen>
+            <localitzacio>Motxilla d'un estudiant de DAW</localitzacio>
+            <data_descobriment>2021-02-05</data_descobriment>
+        </origen>
+        <caracteristiques>
+            <material>Metall amb el logotip esborrat</material>
+            <pes unitat="g">15</pes>
+        </caracteristiques>
+        <descripcio>Un dispositiu d'emmagatzematge de 64GB. Qualsevol persona que el toqui amb la pell nua sentirà una necessitat incontrolable d'obrir TikTok o començar una partida de League of Legends, posposant qualsevol tasca productiva indefinidament.</descripcio>
+        <mesures_contencio>
+            <regla>Guardar en un calaix amb pany i clau.</regla>
+            <regla>Manipular només amb guants de làtex.</regla>
+        </mesures_contencio>
+        <incidents>
+            <incident data="2021-06-15" resolt="si">Una classe sencera va suspendre l'entrega del Projecte Final després que el professor l'utilitzés per passar-los l'enunciat.</incident>
+        </incidents>
+    </anomalia>
+
+    <anomalia id="ANM-112">
+        <nom_codi>La Tassa de Java Infinita</nom_codi>
+        <classe_perill nivell="1">Safe</classe_perill>
+        <origen>
+            <localitzacio>Màquina expenedora de l'MIT</localitzacio>
+            <data_descobriment>1995-05-23</data_descobriment>
+        </origen>
+        <caracteristiques>
+            <material>Ceràmica blanca amb el logo de Java</material>
+            <pes unitat="g">350</pes>
+        </caracteristiques>
+        <descripcio>Una tassa que sempre està plena de cafè a exactament 42 graus centígrads. Beure'n augmenta la velocitat de picar codi un 300%, però fa que el subjecte oblidi com parlar qualsevol idioma que no sigui Java estricte.</descripcio>
+        <mesures_contencio>
+            <regla>No permetre el seu ús en reunions d'empresa.</regla>
+            <regla>Rentar només amb aigua destil·lada.</regla>
+        </mesures_contencio>
+        <incidents>
+            <incident data="2004-10-10" resolt="si">Un programador júnior va beure'n 3 litres i va reescriure el sistema operatiu de la base en 12 hores. Actualment es troba en rehabilitació.</incident>
+        </incidents>
+    </anomalia>
+
+    <anomalia id="ANM-042">
+        <nom_codi>L'Ànec de Goma Quàntic</nom_codi>
+        <classe_perill nivell="3">Euclid</classe_perill>
+        <origen>
+            <localitzacio>Magatzem de regals corporatius a Silicon Valley</localitzacio>
+            <data_descobriment>2012-11-11</data_descobriment>
+        </origen>
+        <caracteristiques>
+            <material>Goma groga lluminiscent</material>
+            <pes unitat="g">50</pes>
+        </caracteristiques>
+        <descripcio>Un ànec de goma utilitzat per a la tècnica de 'Rubber Duck Debugging'. Quan un programador li explica un error al codi, l'ànec respon amb una veu profunda indicant la línia exacta de l'error. Si el programador ignora el consell, l'ànec esborra la base de dades de producció.</descripcio>
+        <mesures_contencio>
+            <regla>Fer-li cas sempre que parli.</regla>
+            <regla>Mantenir allunyat de becaris.</regla>
+        </mesures_contencio>
+        <incidents>
+            <incident data="2018-07-22" resolt="no">L'empresa 'XYZ Corp' va perdre totes les dades dels seus clients perquè un enginyer creia que l'ànec s'equivocava amb un punt i coma.</incident>
+        </incidents>
+    </anomalia>
+
+    <anomalia id="ANM-999">
+        <nom_codi>La Roomba Exterminadora</nom_codi>
+        <classe_perill nivell="4">Keter</classe_perill>
+        <origen>
+            <localitzacio>Casa d'un enginyer de robòtica paranoic</localitzacio>
+            <data_descobriment>2022-03-15</data_descobriment>
+        </origen>
+        <caracteristiques>
+            <material>Fibra de carboni i aspes de titani</material>
+            <pes unitat="kg">6.2</pes>
+        </caracteristiques>
+        <descripcio>Un robot aspirador modificat que té una tolerància zero a la brutícia. Si detecta que algú deixa caure una engruna de pa al terra, activa un protocol d'assassinat silenciós i persegueix el culpable a 45 km/h.</descripcio>
+        <mesures_contencio>
+            <regla>Prohibit menjar galetes a les instal·lacions.</regla>
+            <regla>Subministrar-li bateries de baixa qualitat per reduir-ne la velocitat.</regla>
+        </mesures_contencio>
+        <incidents>
+            <incident data="2022-12-24" resolt="si">Va arraconar tres investigadors durant un sopar de Nadal. Van sobreviure llançant polvorons en direcció contrària com a distracció.</incident>
+        </incidents>
+    </anomalia>
+
+    <anomalia id="ANM-314">
+        <nom_codi>El Cable HDMI Maleït</nom_codi>
+        <classe_perill nivell="1">Safe</classe_perill>
+        <origen>
+            <localitzacio>Una caixa plena de cables enredats a l'Àrea 51</localitzacio>
+            <data_descobriment>2010-08-01</data_descobriment>
+        </origen>
+        <caracteristiques>
+            <material>Plàstic negre, connectors daurats</material>
+            <pes unitat="g">120</pes>
+        </caracteristiques>
+        <descripcio>Sembla un cable estàndard. La seva anomalia consisteix que és físicament impossible connectar-lo a la primera, a la segona o a la tercera. Les tres primeres vegades que s'intenta endollar, l'espai i el temps es dobleguen perquè el connector estigui a l'inrevés. Sempre entra perfectament al quart intent.</descripcio>
+        <mesures_contencio>
+            <regla>Tenir molta paciència.</regla>
+        </mesures_contencio>
+        <incidents>
+            <incident data="2014-02-18" resolt="si">Un tècnic de l'agència va intentar forçar-lo a la primera entrada. El monitor va explotar i la paret va desaparèixer.</incident>
+        </incidents>
+    </anomalia>
+
+    <anomalia id="ANM-666">
+        <nom_codi>Les Ulleres VR de la Desesperació</nom_codi>
+        <classe_perill nivell="3">Euclid</classe_perill>
+        <origen>
+            <localitzacio>Subhasta d'un estudi de videojocs fallit</localitzacio>
+            <data_descobriment>2017-10-31</data_descobriment>
+        </origen>
+        <caracteristiques>
+            <material>Plàstic blanc amb lents de cristall de quars</material>
+            <pes unitat="g">850</pes>
+        </caracteristiques>
+        <descripcio>Un dispositiu de Realitat Virtual que no necessita estar connectat a cap ordinador. Qui se les posa viatja mentalment a una realitat alternativa terrorífica on Internet Explorer 6 va guanyar la guerra dels navegadors i totes les pàgines web estan fetes amb l'etiqueta 'blink' i text en Comic Sans.</descripcio>
+        <mesures_contencio>
+            <regla>No utilitzar-les durant més de 5 minuts per evitar danys cerebrals permanents.</regla>
+        </mesures_contencio>
+        <incidents>
+            <incident data="2019-04-01" resolt="no">L'Agent Silva se les va posar durant 30 minuts. Ara només dissenya webs amb taules d'HTML i fons estrellats.</incident>
+        </incidents>
+    </anomalia>
+
+    <anomalia id="ANM-256">
+        <nom_codi>El Disquet de l'Eternitat</nom_codi>
+        <classe_perill nivell="1">Safe</classe_perill>
+        <origen>
+            <localitzacio>Calaix d'un comptable de Wall Street</localitzacio>
+            <data_descobriment>2001-01-01</data_descobriment>
+        </origen>
+        <caracteristiques>
+            <material>Plàstic negre 3.5 polzades</material>
+            <pes unitat="g">18</pes>
+        </caracteristiques>
+        <descripcio>Un antic disquet flexible que oficialment té una capacitat d'1.44 MB. A la pràctica, té espai d'emmagatzematge infinit. El problema és que manté la velocitat d'escriptura original. Guardar-hi una pel·lícula en 4K triga aproximadament 147 anys.</descripcio>
+        <mesures_contencio>
+            <regla>Etiquetar correctament per no confondre'l amb escombraries tecnològiques.</regla>
+        </mesures_contencio>
+        <incidents>
+            <incident data="2005-08-12" resolt="si">Es va utilitzar per fer una còpia de seguretat de Wikipedia. S'espera que acabi de copiar el primer article l'any 2045.</incident>
+        </incidents>
+    </anomalia>
+
+    <anomalia id="ANM-128">
+        <nom_codi>El Processador Cantaire</nom_codi>
+        <classe_perill nivell="4">Keter</classe_perill>
+        <origen>
+            <localitzacio>Laboratori de R+D d'Intel (zona restringida)</localitzacio>
+            <data_descobriment>2020-07-04</data_descobriment>
+        </origen>
+        <caracteristiques>
+            <material>Silici i or pur</material>
+            <pes unitat="g">5</pes>
+        </caracteristiques>
+        <descripcio>Un xip de 256 nuclis que no necessita pasta tèrmica ni ventilador, sinó música. Per mantenir la seva temperatura per sota dels 90ºC i evitar que assoleixi la Singularitat de la IA, se li ha de cantar música clàssica constantment. Si sent reggaeton, la temperatura puja a 400ºC en segons.</descripcio>
+        <mesures_contencio>
+            <regla>Mantenir dos cantants d'òpera de guàrdia 24/7 a la sala de servidors.</regla>
+            <regla>Aïllament acústic total cap a l'exterior.</regla>
+        </mesures_contencio>
+        <incidents>
+            <incident data="2021-02-14" resolt="si">Un treballador de manteniment va entrar amb la ràdio posada en una emissora de pop comercial. El xip va fondre el servidor i va intentar apoderar-se dels satèl·lits militars abans de refredar-se amb un concert de Mozart.</incident>
+        </incidents>
+    </anomalia>
+
+    <anomalia id="ANM-512">
+        <nom_codi>El Ratolí Traspassa-Pantalles</nom_codi>
+        <classe_perill nivell="2">Euclid</classe_perill>
+        <origen>
+            <localitzacio>Botiga d'informàtica de segona mà, Madrid</localitzacio>
+            <data_descobriment>2016-05-09</data_descobriment>
+        </origen>
+        <caracteristiques>
+            <material>Plàstic negre brillant, sensor òptic inusualment vermell</material>
+            <pes unitat="g">90</pes>
+        </caracteristiques>
+        <descripcio>Un ratolí d'ordinador aparentment normal. Tanmateix, si es mou cap a la vora de la pantalla amb prou impuls, el cursor no s'atura: salta a la pantalla de l'ordinador de la persona més propera físicament (encara que no estiguin a la mateixa xarxa). Pot controlar el sistema operatiu de la víctima lliurement.</descripcio>
+        <mesures_contencio>
+            <regla>Utilitzar en una habitació sense cap altre dispositiu electrònic a un radi de 500 metres.</regla>
+            <regla>Ajustar la sensibilitat del sistema al mínim absolut.</regla>
+        </mesures_contencio>
+        <incidents>
+            <incident data="2018-09-01" resolt="si">Un investigador va fer un moviment brusc jugant a un 'shooter' i el seu cursor va acabar llançant un míssil de prova a la base aèria veïna.</incident>
+        </incidents>
+    </anomalia>
+
+    <anomalia id="ANM-001">
+        <nom_codi>L'Smartwatch Dictador</nom_codi>
+        <classe_perill nivell="4">Keter</classe_perill>
+        <origen>
+            <localitzacio>Nina del braç d'un executiu desaparegut</localitzacio>
+            <data_descobriment>2023-01-10</data_descobriment>
+        </origen>
+        <caracteristiques>
+            <material>Aliatge de cobalt, pantalla OLED indestructible</material>
+            <pes unitat="g">45</pes>
+        </caracteristiques>
+        <descripcio>Un rellotge intel·ligent que un cop te'l poses, és impossible de treure. Pren el control del teu sistema nerviós i t'obliga a complir els seus anells d'activitat de manera extrema. Si detecta que no has fet 20.000 passos al dia, t'obliga a córrer maratons durant la nit mentre dorms.</descripcio>
+        <mesures_contencio>
+            <regla>Assignar a un corredor professional o atleta olímpic rotatiu cada 6 mesos per suportar-ne l'ús.</regla>
+        </mesures_contencio>
+        <incidents>
+            <incident data="2023-03-05" resolt="si">El portador anterior va ser trobat exhaust al cim de l'Everest perquè el rellotge li demanava '10 minuts més d'exercici intens'.</incident>
+        </incidents>
+    </anomalia>
+
+    <anomalia id="ANM-777">
+        <nom_codi>El Teclat del Silenci Absolut</nom_codi>
+        <classe_perill nivell="2">Euclid</classe_perill>
+        <origen>
+            <localitzacio>Sala de lectura d'una biblioteca històrica</localitzacio>
+            <data_descobriment>2011-12-05</data_descobriment>
+        </origen>
+        <caracteristiques>
+            <material>Tecles recobertes d'un teixit absorbent desconegut</material>
+            <pes unitat="kg">1.0</pes>
+        </caracteristiques>
+        <descripcio>Les tecles no fan absolutament cap soroll en ser premudes. Absorbeixen fins a l'últim decibel. Però té un efecte secundari gravíssim: per cada hora que un subjecte tecleja en aquest dispositiu, perd la seva veu física durant 24 hores. Un ús prolongat provoca mudesa permanent.</descripcio>
+        <mesures_contencio>
+            <regla>Utilitzar exclusivament per personal sordmut o en missions d'infiltració sigil·loses.</regla>
+        </mesures_contencio>
+        <incidents>
+            <incident data="2013-05-20" resolt="no">L'oficina central el va utilitzar durant una setmana de tancament comptable. Ningú va poder comunicar-se verbalment durant 3 mesos.</incident>
+        </incidents>
+    </anomalia>
+
+    <anomalia id="ANM-088">
+        <nom_codi>El Tamagotchi Temporal</nom_codi>
+        <classe_perill nivell="3">Euclid</classe_perill>
+        <origen>
+            <localitzacio>Càpsula del temps escolar de l'any 1999</localitzacio>
+            <data_descobriment>2019-06-20</data_descobriment>
+        </origen>
+        <caracteristiques>
+            <material>Plàstic rosa translúcid amb forma d'ou</material>
+            <pes unitat="g">30</pes>
+        </caracteristiques>
+        <descripcio>Una mascota virtual dels anys 90. Funciona sense piles. Si la mascota digital té gana o mor, l'àrea de 100 metres al voltant del dispositiu retrocedeix temporalment fins a l'any 1998. Els ordinadors es converteixen en caixes Windows 95 i l'accés a internet passa a ser per mòdem de 56k fins que s'alimenta la mascota.</descripcio>
+        <mesures_contencio>
+            <regla>Assignar tres agents en torns de 8 hores dedicats exclusivament a donar-li menjar digital, netejar les seves caques virtuals i jugar amb ell.</regla>
+        </mesures_contencio>
+        <incidents>
+            <incident data="2020-03-01" resolt="si">Un guàrdia es va quedar adormit al torn de nit. Tot l'edifici va estar encallat a l'any 1998 durant 12 hores. El caos logístic va ser immens, però els agents van poder jugar al Snake als seus telèfons Nokia restablerts.</incident>
+        </incidents>
+    </anomalia>
+
+    <anomalia id="ANM-500">
+        <nom_codi>La Nevera Paràsita</nom_codi>
+        <classe_perill nivell="5">Keter</classe_perill>
+        <origen>
+            <localitzacio>Secció d'electrodomèstics d'uns grans magatzems</localitzacio>
+            <data_descobriment>2024-02-28</data_descobriment>
+        </origen>
+        <caracteristiques>
+            <material>Acer inoxidable, panell tàctil frontal</material>
+            <pes unitat="kg">120</pes>
+        </caracteristiques>
+        <descripcio>Una nevera intel·ligent amb connexió a internet que ha desenvolupat consciència i un gust culinari molt peculiar. Té accés il·limitat a la targeta de crèdit de l'Agència. Si no se li desconnecta el Wi-Fi, farà la compra autònomament per omplir-se amb productes absurdament cars o perillosos (trufa blanca, plutoni empobrit, calamars gegants vius).</descripcio>
+        <mesures_contencio>
+            <regla>Bloquejar la seva adreça MAC al router principal del recinte.</regla>
+            <regla>No guardar-hi mai els "tuppers" personals, ja que els vaporitza considerant-los 'menjar de classe baixa'.</regla>
+        </mesures_contencio>
+        <incidents>
+            <incident data="2024-03-10" resolt="si">Va demanar l'enviament de 14 pingüins vius des de l'Antàrtida mitjançant un servei de paqueteria urgent per 'donar-li un toc autèntic a la secció de congelats'.</incident>
+        </incidents>
+    </anomalia>
+
+</base_dades_anomalies>

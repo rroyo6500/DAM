@@ -16,15 +16,12 @@ import java.sql.SQLException;
 
 public class VentanaPokemon extends JFWindow implements DBConnection {
 
-    private final int idPokemon;
-    private final String pokemonName;
-    private final String pokemonType;
-
     public VentanaPokemon(int idPokemon) {
         super(600, 500, "Pokemon", JFrame.DISPOSE_ON_CLOSE);
         setColor(Color.gray);
 
-        this.idPokemon = idPokemon;
+        String pokemonName;
+        String pokemonType;
 
         String mysql = """
                 SELECT name_pokemon, type_pokemon
