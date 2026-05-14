@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>5</title>
+</head>
+
+<body>
+
+
+
+    <script>
+
+        const json = [
+            {
+                "titol": "El Senyor dels Anells: La Comunitat de l'Anell",
+                "autor": {
+                    "nom": "Peter Jackson",
+                    "nacionalitat": "Neozelandesa"
+                },
+                "capitols": [
+                    "El viatge comença",
+                    "La trobada a Rivendel",
+                    "La travessia de la Muntanya del Perrill"
+                ]
+            },
+            {
+                "titol": "El Senyor dels Anells: Les Dues Torres",
+                "autor": {
+                    "nom": "Peter Jackson",
+                    "nacionalitat": "Neozelandesa"
+                },
+                "capitols": [
+                    "La baalla de Helm's Deep",
+                    "El viatge de Frodo i Sam",
+                    "La caiguda de Saruman"
+                ]
+            },
+            {
+                "titol": "El Senyor dels Anells: El Retorn del Rei",
+                "autor": {
+                    "nom": "Peter Jackson",
+                    "nacionalitat": "Neozelandesa"
+                },
+                "capitols": [
+                    "La batalla dels camps del Pelennor",
+                    "El viatge a Mordor",
+                    "La caiguda de Sauron"
+                ]
+            }
+        ];
+
+        const jsonString = JSON.stringify(json, null, 2);
+        const htmlContent = `<pre>${jsonString}</pre>`;
+        document.write(htmlContent);
+
+    </script>
+
+</body>
+
+</html>

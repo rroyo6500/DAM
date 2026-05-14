@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>8
+    </title>
+</head>
+<body>
+
+    <div id="contenidor-viatges"></div>
+
+    <script>
+        // 1. JSON actualitzat amb la propietat 'itinerari' (basat en la imatge)
+        const dadesViatges = `[
+            {
+                "destinacio": "Barcelona",
+                "durada_dies": 4,
+                "preu": 350,
+                "itinerari": ["Sagrada Família", "Parc Güell", "Platja"]
+            },
+            {
+                "destinacio": "Madrid",
+                "durada_dies": 3,
+                "preu": 300,
+                "itinerari": ["Museu del Prado", "Retiro", "Puerta del Sol"]
+            },
+            {
+                "destinacio": "Menorca",
+                "durada_dies": 7,
+                "preu": 600,
+                "itinerari": ["Ciutadella", "Es Trencadents", "Calanova"]
+            }
+        ]`;
+
+        const viatges = JSON.parse(dadesViatges);
+        const contenidor = document.getElementById('contenidor-viatges');
+
+        viatges.forEach(viatge => {
+            const divViatge = document.createElement('div');
+            divViatge.className = 'viatge-container';
+
+            const titol = document.createElement('h2');
+            titol.textContent = `Viatge a ${viatge.destinacio}`;
+            divViatge.appendChild(titol);
+
+            const llistaUl = document.createElement('ul');
+
+            viatge.itinerari.forEach(lloc => {
+                const itemLi = document.createElement('li');
+                itemLi.textContent = lloc;
+                llistaUl.appendChild(itemLi);
+            });
+
+            divViatge.appendChild(llistaUl);
+
+            contenidor.appendChild(divViatge);
+        });
+    </script>
+
+</body>
+</html>

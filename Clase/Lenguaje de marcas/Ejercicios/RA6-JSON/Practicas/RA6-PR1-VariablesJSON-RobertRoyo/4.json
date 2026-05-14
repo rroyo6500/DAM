@@ -1,33 +1,38 @@
-
 [
     {
-        "titol": "",
+        "titol": "Cien años de soledad",
         "autor": {
-            "nom": "",
-            "nacionalitat": ""
+            "nom": "Gabriel García Márquez",
+            "nacionalitat": "Colombiana"
         },
         "capitols": [
-            ""
+            "El origen de Macondo",
+            "La llegada de los gitanos",
+            "La peste del insomnio"
         ]
     },
     {
-        "titol": "",
+        "titol": "Don Quijote de la Mancha",
         "autor": {
-            "nom": "",
-            "nacionalitat": ""
+            "nom": "Miguel de Cervantes",
+            "nacionalitat": "Espanyola"
         },
         "capitols": [
-            ""
+            "Condición y ejercicio del famoso hidalgo",
+            "La primera salida de su tierra",
+            "Donde se cuenta la graciosa manera que tuvo en armarse caballero"
         ]
     },
     {
-        "titol": "",
+        "titol": "El Hobbit",
         "autor": {
-            "nom": "",
-            "nacionalitat": ""
+            "nom": "J.R.R. Tolkien",
+            "nacionalitat": "Britànica"
         },
         "capitols": [
-            ""
+            "Una tertulia inesperada",
+            "Carnero asado",
+            "Un breve descanso"
         ]
     }
 ]

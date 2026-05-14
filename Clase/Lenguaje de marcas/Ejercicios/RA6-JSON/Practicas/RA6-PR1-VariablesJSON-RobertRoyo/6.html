@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>6</title>
+</head>
+
+<body>
+
+    <h2>Destinacions Disponibles</h2>
+    <ul id="llista-viatges"></ul>
+
+    <script>
+        const dadesRecudes = `[
+            {
+                "destinacio": "Tòquio",
+                "durada_dies": 10,
+                "preu": 1450
+            },
+            {
+                "destinacio": "Reykjavík",
+                "durada_dies": 7,
+                "preu": 980
+            },
+            {
+                "destinacio": "Nova York",
+                "durada_dies": 5,
+                "preu": 1100
+            }
+        ]`;
+
+        const viatges = JSON.parse(dadesRecudes);
+
+        const llista = document.getElementById('llista-viatges');
+
+        viatges.forEach(viatge => {
+            const item = document.createElement('li');
+            item.textContent = `Viatge a ${viatge.destinacio} - ${viatge.durada_dies} dies per només ${viatge.preu} €`;
+            llista.appendChild(item);
+        });
+    </script>
+
+</body>
+
+</html>
