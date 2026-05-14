@@ -5,7 +5,6 @@
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xsi:noNamespaceSchemaLocation="format.xsd"
 >
-    
     <fantasma>
         <tipo>Espiritu</tipo>
         <descripcion>Los espíritus son los fantasmas más comunes. Son muy poderosos, pero pasivos.</descripcion>

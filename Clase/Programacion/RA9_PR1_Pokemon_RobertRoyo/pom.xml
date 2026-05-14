@@ -14,6 +14,16 @@
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     </properties>
 
+    <repositories>
+        <repository>
+            <id>github</id>
+            <url>https://maven.pkg.github.com/rroyo6500/JUtils</url>
+            <snapshots>
+                <enabled>true</enabled>
+            </snapshots>
+        </repository>
+    </repositories>
+
     <dependencies>
         <dependency>
             <groupId>org.jetbrains</groupId>
@@ -26,6 +36,11 @@
             <artifactId>mysql-connector-j</artifactId>
             <version>9.7.0</version>
             <scope>compile</scope>
+        </dependency>
+        <dependency>
+            <groupId>rroyo.jutils</groupId>
+            <artifactId>jutils</artifactId>
+            <version>1.0.4</version>
         </dependency>
     </dependencies>
 

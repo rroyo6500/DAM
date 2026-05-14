@@ -1,0 +1,270 @@
+{
+    "tipos_fantasmas": {
+        "fantasma": [
+            {
+                "tipo": "Espiritu",
+                "descripcion": "Los espíritus son los fantasmas más comunes. Son muy poderosos, pero pasivos.",
+                "pruebas": {
+                    "prueba": [
+                        {
+                            "nombre": "",
+                            "descripcion": "Lectura de nivel 5 en el lector de campo electromagnético."
+                        },
+                        {
+                            "nombre": "",
+                            "descripcion": "Respuesta audible a través de la Spirit Box."
+                        },
+                        {
+                            "nombre": "",
+                            "descripcion": "El fantasma escribe o dibuja en el libro."
+                        }
+                    ]
+                },
+                "habilidad": "El incienso detiene sus ataques por un periodo más largo (180 segundos).",
+                "cordura": 50,
+                "velocidad_base": 2,
+                "velocidad_maxima": 3,
+                "velocidad_minima": 1,
+                "imagen": "https://static.wikia.nocookie.net/phasmophobia/images/c/c1/Spirit_Discovered.jpg/revision/latest?cb=20231115114542"
+            },
+            {
+                "tipo": "Espectro",
+                "descripcion": "Uno de los fantasmas más peligrosos. Es el único que puede volar y atravesar paredes.",
+                "pruebas": {
+                    "prueba": [
+                        {
+                            "nombre": "",
+                            "descripcion": "Lectura de nivel 5 en el lector de campo electromagnético."
+                        },
+                        {
+                            "nombre": "",
+                            "descripcion": "Respuesta audible a través de la Spirit Box."
+                        },
+                        {
+                            "nombre": "",
+                            "descripcion": "Silueta visible pasando por la luz del proyector."
+                        }
+                    ]
+                },
+                "habilidad": "Nunca deja huellas físicas en la sal al caminar sobre ella.",
+                "cordura": 50,
+                "velocidad_base": 2,
+                "velocidad_maxima": 3,
+                "velocidad_minima": 1,
+                "imagen": "https://static.wikia.nocookie.net/phasmophobia/images/c/c1/Wraith_Discovered.jpg/revision/latest?cb=20231115114549"
+            },
+            {
+                "tipo": "Ente",
+                "descripcion": "Un fantasma que puede poseer a los vivos, comúnmente invocado por tablas Ouija.",
+                "pruebas": {
+                    "prueba": [
+                        {
+                            "nombre": "",
+                            "descripcion": "Respuesta audible a través de la Spirit Box."
+                        },
+                        {
+                            "nombre": "",
+                            "descripcion": "Marcas visibles con luz UV en puertas o interruptores."
+                        },
+                        {
+                            "nombre": "",
+                            "descripcion": "Silueta visible pasando por la luz del proyector."
+                        }
+                    ]
+                },
+                "habilidad": "Mirarlo directamente reduce la cordura drásticamente.",
+                "cordura": 50,
+                "velocidad_base": 2,
+                "velocidad_maxima": 3,
+                "velocidad_minima": 1,
+                "imagen": "https://static.wikia.nocookie.net/phasmophobia/images/2/27/Phantom_Discovered.jpg/revision/latest?cb=20231115114535"
+            },
+            {
+                "tipo": "Poltergeist",
+                "descripcion": "Conocido por manipular objetos a su alrededor para infundir miedo.",
+                "pruebas": {
+                    "prueba": [
+                        {
+                            "nombre": "",
+                            "descripcion": "Respuesta audible a través de la Spirit Box."
+                        },
+                        {
+                            "nombre": "",
+                            "descripcion": "Marcas visibles con luz UV."
+                        },
+                        {
+                            "nombre": "",
+                            "descripcion": "El fantasma escribe en el libro."
+                        }
+                    ]
+                },
+                "habilidad": "Puede lanzar múltiples objetos a la vez con gran fuerza.",
+                "cordura": 50,
+                "velocidad_base": 2,
+                "velocidad_maxima": 3,
+                "velocidad_minima": 1,
+                "imagen": "https://static.wikia.nocookie.net/phasmophobia/images/1/10/Poltergeist_Discovered.jpg/revision/latest?cb=20231115114536"
+            },
+            {
+                "tipo": "Banshee",
+                "descripcion": "Un cazador natural que acecha a su presa antes de atacar.",
+                "pruebas": {
+                    "prueba": [
+                        {
+                            "nombre": "",
+                            "descripcion": "Marcas visibles con luz UV."
+                        },
+                        {
+                            "nombre": "",
+                            "descripcion": "Pequeñas luces flotantes visibles en cámara de video."
+                        },
+                        {
+                            "nombre": "",
+                            "descripcion": "Silueta visible pasando por la luz del proyector."
+                        }
+                    ]
+                },
+                "habilidad": "Grito parabólico único detectable con el micrófono parabólico.",
+                "cordura": 50,
+                "velocidad_base": 2,
+                "velocidad_maxima": 3,
+                "velocidad_minima": 1,
+                "imagen": "https://static.wikia.nocookie.net/phasmophobia/images/2/26/Banshee_Discovered.jpg/revision/latest?cb=20231115114509"
+            },
+            {
+                "tipo": "Revenant",
+                "descripcion": "Un fantasma lento pero violento que ataca indiscriminadamente.",
+                "pruebas": {
+                    "prueba": [
+                        {
+                            "nombre": "",
+                            "descripcion": "Luces flotantes en visión nocturna."
+                        },
+                        {
+                            "nombre": "",
+                            "descripcion": "El fantasma escribe en el libro."
+                        },
+                        {
+                            "nombre": "",
+                            "descripcion": "El termómetro marca bajo cero o se ve el aliento."
+                        }
+                    ]
+                },
+                "habilidad": "Se mueve extremadamente rápido si ve a su presa durante la caza.",
+                "cordura": 50,
+                "velocidad_base": 1,
+                "velocidad_maxima": 4,
+                "velocidad_minima": 1,
+                "imagen": "https://static.wikia.nocookie.net/phasmophobia/images/1/16/Revenant_Discovered.jpg/revision/latest?cb=20231115114538"
+            },
+            {
+                "tipo": "Demonio",
+                "descripcion": "Uno de los peores fantasmas que te puedes encontrar. Ataca sin razón.",
+                "pruebas": {
+                    "prueba": [
+                        {
+                            "nombre": "",
+                            "descripcion": "Marcas visibles con luz UV."
+                        },
+                        {
+                            "nombre": "",
+                            "descripcion": "El fantasma escribe en el libro."
+                        },
+                        {
+                            "nombre": "",
+                            "descripcion": "El aire se congela cerca de él."
+                        }
+                    ]
+                },
+                "habilidad": "Puede iniciar cacerías con niveles altos de cordura (70% o más).",
+                "cordura": 70,
+                "velocidad_base": 2,
+                "velocidad_maxima": 3,
+                "velocidad_minima": 1,
+                "imagen": "https://static.wikia.nocookie.net/phasmophobia/images/f/f5/Demon_Discovered.jpg/revision/latest?cb=20231115114516"
+            },
+            {
+                "tipo": "El Mmico",
+                "descripcion": "Un fantasma evasivo que copia las habilidades y rasgos de otros.",
+                "pruebas": {
+                    "prueba": [
+                        {
+                            "nombre": "",
+                            "descripcion": "Respuesta audible a través de la Spirit Box."
+                        },
+                        {
+                            "nombre": "",
+                            "descripcion": "Marcas visibles con luz UV."
+                        },
+                        {
+                            "nombre": "",
+                            "descripcion": "Temperaturas bajo cero."
+                        }
+                    ],
+                    "prueba-especial": {
+                        "nombre": "",
+                        "descripcion": "Prueba extra (cuarta prueba) que siempre presenta aunque no sea oficial."
+                    }
+                },
+                "habilidad": "Puede imitar el comportamiento de cualquier otro tipo de fantasma.",
+                "cordura": 50,
+                "velocidad_base": 2,
+                "velocidad_maxima": 3,
+                "velocidad_minima": 1,
+                "imagen": "https://static.wikia.nocookie.net/phasmophobia/images/e/e0/The_Mimic_Discovered.jpg/revision/latest?cb=20231115114545"
+            },
+            {
+                "tipo": "Hantu",
+                "descripcion": "Un fantasma raro que prospera en los climas más fríos.",
+                "pruebas": {
+                    "prueba": [
+                        {
+                            "nombre": "",
+                            "descripcion": "Marcas visibles con luz UV."
+                        },
+                        {
+                            "nombre": "",
+                            "descripcion": "Luces flotantes en cámara."
+                        },
+                        {
+                            "nombre": "",
+                            "descripcion": "Temperaturas bajo cero."
+                        }
+                    ]
+                },
+                "habilidad": "Se mueve más rápido en habitaciones frías y más lento en las calientes.",
+                "cordura": 50,
+                "velocidad_base": 1,
+                "velocidad_maxima": 3,
+                "velocidad_minima": 1,
+                "imagen": "https://static.wikia.nocookie.net/phasmophobia/images/e/e0/Hantu_Discovered.jpg/revision/latest?cb=20231115114526"
+            },
+            {
+                "tipo": "Raiju",
+                "descripcion": "Un demonio que se alimenta de la corriente eléctrica.",
+                "pruebas": {
+                    "prueba": [
+                        {
+                            "nombre": "",
+                            "descripcion": "Lectura de nivel 5 en el lector CEM."
+                        },
+                        {
+                            "nombre": "",
+                            "descripcion": "Luces flotantes en cámara."
+                        },
+                        {
+                            "nombre": "",
+                            "descripcion": "Silueta visible en la luz D.O.T.S."
+                        }
+                    ]
+                },
+                "habilidad": "Se vuelve extremadamente rápido cerca de aparatos electrónicos encendidos.",
+                "cordura": 65,
+                "velocidad_base": 2,
+                "velocidad_maxima": 4,
+                "velocidad_minima": 2,
+                "imagen": "https://static.wikia.nocookie.net/phasmophobia/images/a/aa/Raiju_Discovered.jpg/revision/latest?cb=20231115114537"
+            }
+        ]
+    }
+}

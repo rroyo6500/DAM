@@ -1,8 +1,8 @@
 package Pokemon_RobertRoyo.Ventanas;
 
 import Pokemon_RobertRoyo.DBConnection;
-import Utils.BBDDConnection;
-import Utils.CustomFonts;
+import rroyo.JUtils.Utils.BBDD.*;
+import rroyo.JUtils.Utils.GUI.CustomFonts;
 import rroyo.JF.Enums.ActionEventTypes;
 import rroyo.JF.Enums.Alignment;
 import rroyo.JF.Enums.MainAxisAlignment;
@@ -15,7 +15,7 @@ import java.awt.*;
 import java.sql.ResultSet;
 import java.sql.SQLException;
 
-public class MainWindow extends JFWindow implements DBConnection {
+public class MainWindow extends JFWindow, DBConnection {
 
     public MainWindow() {
         super(600, 300, "Llistat de Pokemon");

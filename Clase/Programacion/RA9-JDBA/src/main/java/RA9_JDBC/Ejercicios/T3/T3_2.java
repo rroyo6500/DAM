@@ -1,6 +1,6 @@
 package RA9_JDBC.Ejercicios.T3;
 
-import Utils.BBDDConection;
+import rroyo.JUtils.Utils.BBDD.BBDDConnection;
 
 import java.sql.*;
 
@@ -9,9 +9,15 @@ public class T3_2 {
     private static String BBDD = "jdbc:mysql://localhost:3306/spotify";
     private static String user = "robert";
     private static String password = "Rroyo4221";
-    private static BBDDConection con = new BBDDConection(BBDD, user, password);
+    private static BBDDConnection con;
 
     public static void main(String[] args) {
+
+        try {
+            con = new BBDDConnection(BBDD, user, password);
+        } catch (SQLException e) {
+            throw new RuntimeException(e);
+        }
 
         try (ResultSet r = con.executeQuery("SELECT * FROM canciones WHERE duracio > ?", 200)) {
 

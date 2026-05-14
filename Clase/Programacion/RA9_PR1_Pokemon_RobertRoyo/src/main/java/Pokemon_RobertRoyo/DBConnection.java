@@ -1,6 +1,8 @@
 package Pokemon_RobertRoyo;
 
-import Utils.BBDDConnection;
+import rroyo.JUtils.Utils.BBDD.BBDDConnection;
+
+import java.sql.SQLException;
 
 public interface DBConnection {
 
